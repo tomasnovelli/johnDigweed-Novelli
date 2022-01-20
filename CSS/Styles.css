@@ -7,6 +7,8 @@
 body{
     background-image: linear-gradient(black , black, #083b44 );
 }
+    /* SECCION MUSICA */
+    /* GRILLA INDEX */
 
 .grilla{
     display: grid; 
@@ -33,6 +35,8 @@ body{
     grid-area: section2;
   }
 
+  /* LOGO HEADER */
+
 .logoSize{
     position: relative;
     top: 13%;
@@ -46,11 +50,15 @@ body{
     animation-duration: 1.5s;
 }
 
+    /* IMAGEN PRINCIPAL INDEX */
+
 .jdIndex{
     margin-top: 15%;
     width: 100vw;
 
 }
+
+    /* BIO TEXTO INDEX */
 
 .parrafoBio{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -80,7 +88,10 @@ h1{
     padding-right: 5px;
 }
 
-/* MUSICA */
+
+
+    /* SECCION MUSICA */
+    /* GRILLA MUSICA */
 
 .grilla2 {  
     display: grid;
@@ -137,6 +148,8 @@ h1{
     align-items: center;
   }
 
+    /* FORMATO MIX */
+
 .mixCuadrado{
     border-bottom: solid yellow 1px;
     width: 90vw;
@@ -145,6 +158,8 @@ h1{
     animation-duration: 2s;
      
 }
+
+    /* MIX TEXTO */
 
 .mixTexto{
     color: white;
@@ -268,12 +283,12 @@ footer{
 }
 
 @media (min-width:425px){
+
     .grilla{
         grid-template-rows: 0.4fr 0.3fr 1fr 1fr 1fr;
     }
 
     .grilla2 {  
-
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -404,6 +419,8 @@ footer{
 
     }
 }
+
+    /* CENTRADO NAV BAR */
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
