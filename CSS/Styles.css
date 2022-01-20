@@ -321,7 +321,7 @@ footer{
 @media (min-width:768px){
 
     .grilla{
-        grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.1fr; 
+        grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.2fr; 
     }
 
     .jdIndex{
