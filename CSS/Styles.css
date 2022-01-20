@@ -62,7 +62,8 @@ h1{
     align-items: center;
     justify-content: center;
     color: white;
-    border-bottom: solid yellow 2px;
+    border-bottom: solid yellow 1px;
+
 }
 
 .cuadrado{
@@ -195,30 +196,38 @@ h1{
 .videoYoutube1{
     width: 250px;
     height: 150px;
+    margin-top: 4%;
 
 }
 
 .videoYoutube2{
     width: 250px;
     height: 150px;
+    margin-top: 4%;
 
 }
 
 .videoYoutube3{
     width: 250px;
     height: 150px;
+    margin-top: 4%;
 
 }
 
 .videoYoutube4{
     width: 250px;
     height: 150px;
+    margin-top: 4%;
 
 }
 
 /* FOOTER */
 
-
+footer{
+    height: 7vh;
+    display: grid;
+    align-items: center;
+}
 
 .face{
     width: 30px;
@@ -252,7 +261,56 @@ h1{
 @media (min-width:425px){
     .grilla{
         grid-template-rows: 0.4fr 0.3fr 1fr 1fr 1fr;
-    } 
+    }
+
+    .grilla2 {  
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+    .videoTitulo1{
+        font-size: 18.5px;
+
+}
+
+    .videoTitulo2{
+        font-size: 18.5px;
+
+}
+
+    .videoTitulo3{
+        font-size: 18.5px;
+
+}
+
+    .videoTitulo4{
+        font-size: 18.5px;
+
+}    
+
+    .videoYoutube1{
+        width: 350px;
+        height: 210px;
+}
+
+    .videoYoutube2{
+        width: 350px;
+        height: 210px;
+}
+
+    .videoYoutube3{
+        width: 350px;
+        height: 210px;
+
+}
+
+    .videoYoutube4{
+        width: 350px;
+        height: 210px;
+
+}   
 }
 
 
