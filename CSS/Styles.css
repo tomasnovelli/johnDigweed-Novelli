@@ -43,8 +43,8 @@ body{
 
 
 .jdIndex{
-    margin-top: 10%;
-    height: 50%;
+    margin-top: 15%;
+    width: 100vw;
 }
 
 .parrafoBio{
@@ -324,18 +324,12 @@ footer{
         grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.2fr; 
     }
 
-    .section1{
-        grid-area: section1;
-        height: 50%;
+    .jdIndex{
+        margin-top: 15%;
+        width: 70vw;
         position: relative;
-        top: 50px;
-        
-}
-
-    .section2{
-        grid-area: section2;
-
-}
+        left: 13%;
+    }
 
     .logoSize{
         position: relative;
@@ -348,12 +342,6 @@ footer{
         position: relative;
         left: 39%;
         width: 20%;
-    }
-    .cuadrado{
-        height: 30%;
-        padding-left: 10px;
-        border-left: solid yellow 0.5px;
-        overflow: auto;
     }
 
     h1{
@@ -417,11 +405,7 @@ footer{
             position: relative;
             top: 10px;
             left: 70px;
-            width: 38vw;
-        }
-        .jdIndex{
-            margin-top: 10%;
-            height: 50%;
+            width: 380px;
         }  
         .grilla{
             display: grid; 
