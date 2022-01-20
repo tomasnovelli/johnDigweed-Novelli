@@ -34,8 +34,8 @@ body{
 
 .logoSize{
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 11%;
+    left: 2%;
     width: 60vw;
 }
 
@@ -148,10 +148,37 @@ h1{
             left: 70px;
             width: 38vw;
         }  
-        nav div ul{
-            display: flex;
-            justify-items: center;
+        .grilla{
+            display: grid; 
+            grid-auto-columns: 1fr; 
+            grid-auto-rows: 1fr; 
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+            grid-template-rows: 0.2fr 0.2fr 1fr 1fr 1fr; 
+            gap: 0px 15px; 
+            grid-template-areas: 
+              "section1 section1 section1 section1 section2 section2 section2 section2"
+              "section1 section1 section1 section1 section2 section2 section2 section2"
+              "section1 section1 section1 section1 section2 section2 section2 section2"
+              "section1 section1 section1 section1 section2 section2 section2 section2"
+              "section1 section1 section1 section1 section2 section2 section2 section2";
+                 
+          }
+        
+          .section1{
+            grid-area: section1;
+        
+          }
+          .section2{
+            grid-area: section2;
+          }
+
+        .jdIndex{
+            margin-top: 15%;
+            width: 40vw;
+            position: relative;
+            left: 13%;
         }
     }
+
     
 }
