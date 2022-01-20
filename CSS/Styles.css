@@ -27,6 +27,7 @@ body{
   .section1{
     grid-area: section1;
 
+
   }
   .section2{
     grid-area: section2;
@@ -34,10 +35,12 @@ body{
 
 .logoSize{
     position: relative;
-    top: 11%;
-    left: 2%;
-    width: 60vw;
+    top: 13%;
+    left: 5%;
+    width: 55vw;
 }
+
+
 
 .jdIndex{
     margin-top: 15%;
@@ -310,7 +313,8 @@ footer{
         width: 350px;
         height: 210px;
 
-}   
+}
+
 }
 
 
@@ -331,7 +335,7 @@ footer{
         position: relative;
         top: 10px;
         left: 30px;
-        width: 50vw;
+        width: 380px;
     }  
 
     .bio{
@@ -371,45 +375,29 @@ footer{
 
 
     .videoTitulo1{
-        padding: 10px;
-        color: white;
-        display: inline;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 25px;
         text-align: center;
-        text-decoration: underline;
 
     }
 
     .videoTitulo2{
-        padding: 10px;
-        color: white;
-        display: inline;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 25px;
         text-align: center;
-        text-decoration: underline;
+
     }
 
     .videoTitulo3{
-        padding: 10px;
-        color: white;
-        display: inline;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 25px;
         text-align: center;
-        text-decoration: underline;
+
     }
 
     .videoTitulo4{
-        padding: 10px;
-        color: white;
-        display: inline;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 25px;
         text-align: center;
-        text-decoration: underline;
+
     }
+}
 
     @media (min-width:1024px){
 
@@ -417,7 +405,7 @@ footer{
             position: relative;
             top: 10px;
             left: 70px;
-            width: 38vw;
+            width: 380px;
         }  
         .grilla{
             display: grid; 
@@ -458,7 +446,75 @@ footer{
             padding-right: 5px;
             
         }
+
+
+    .grilla2 {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.8fr 1fr 1fr 0.8fr 1fr 1fr 0.8fr;
+        grid-auto-columns: 1fr;
+        gap: 15px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "titulo titulo titulo titulo titulo titulo"
+            "video1 video1 video1 video2 video2 video2"
+            "video1 video1 video1 video2 video2 video2"
+            "video1 video1 video1 video2 video2 video2"
+            "video3 video3 video3 video4 video4 video4"
+            "video3 video3 video3 video4 video4 video4"
+            "video3 video3 video3 video4 video4 video4"
+}
+
+    .mixTexto{
+        position: relative;
+        bottom: 10%;
+        font-size: 35px;
     }
 
+
+    .videoTitulo1{
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .videoTitulo2{
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .videoTitulo3{
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .videoTitulo4{
+        font-size: 30px;
+        text-align: center;
+
+    }
     
+    .videoYoutube1{
+        width: 480px;
+        height: 300px;
+}
+
+    .videoYoutube2{
+        width: 480px;
+        height: 300px;
+}
+
+    .videoYoutube3{
+        width: 480px;
+        height: 300px;
+
+}
+
+    .videoYoutube4{
+        width: 480px;
+        height: 300px;
+
+    }
 }
