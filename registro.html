@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://res.cloudinary.com/dxuixjmrw/image/upload/v1643556281/johnDigweedPage/John_dig_fav_icon_k9bung.png">
+    
+        <!-- Link Wow -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      
+        <!-- Link Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      
+        <!-- Link CSS -->
+        <link rel="stylesheet" href="./CSS/style.css">
+      
+        <title>John Digweed | Registro</title>
+    
+      </head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div class="container-fluid">
+  
+        <header class="row">
+    
+          <a class="col-8 col-lg-6" href="./index.html"><img class="logoSize" src="https://res.cloudinary.com/dxuixjmrw/image/upload/v1643556281/johnDigweedPage/John--Digweed-Logo-1-1614_gz4y6b.png"
+              alt="logo JD"></a>
+  
+          <nav class="navbar navbar-expand-lg navbar-dark col-4 col-lg-6 d-flex justify-content-center">
+  
+            <div class="container-fluid botonTamaño d-flex justify-content-center">
+  
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./musica.html">Musica</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./eventos.html">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./registro.html">Registro</a>
+                  </li>
+  
+          </nav>
+    
+        </header>
+      </div>
+
+    <!-- MAIN -->
+
+    <main>
+        <div>
+
+            <h1 class="titulosCuadrado titulosTexto posicionReg">REGISTRO</h1>
+
+            <!-- Input TIPO TEXTO -->
+            <div>
+
+                <form class="formulario" action="#" method="GET">
+
+                    <p class="textForm">Nombre:</p>
+                    <input type="text" placeholder="Ingresa Tu Nombre*" name="Nombre" label="enviar-nombre" required>
+
+                    <p class="textForm">Apellido:</p>
+                    <input type="text" placeholder="Ingresa Tu Apellido*" name="Apellido" required>
+
+                    <p class="textForm">Edad:</p>
+                    <input type="number" placeholder="Ingresa Tu Edad*" name="Edad" required>
+
+                    <p class="textForm">Telefono:</p>
+                    <input type="tel" placeholder="Ingresa Tu Telefono" name="Telefono">
+
+                    <!-- a proposito no lo puse como requerido el telefono
+                        como para que haya una opcion que no sea obligatoria -->
+
+                    <p class="textForm">Mail:</p>
+                    <input type="text" placeholder="Ingresa Tu Mail*" name="Mail" required>
+
+
+                    <!-- Input TIPO RADIO -->
+
+                    <p class="textForm">Sexo:</p>
+
+                    <p class="opcionSex">Mujer</p>
+                    <input type="radio" value="Mujer" name="sexo" required>
+
+                    <p class="opcionSex">Hombre</p>
+                    <input type="radio" value="Hombre" name="sexo" required>
+
+                    <p class="opcionSex">No Binario</p>
+                    <input type="radio" value="No Binario" name="sexo" required>
+
+                    <p class="opcionSex">Prefiero No Decirlo</p>
+                    <input type="radio" value="No quiero decirlo" name="sexo" required>
+
+                    <!-- desplegable -->
+
+                    <p class="textForm">Nacionalidad:</p>
+
+                    <select class="cuadroNacion botones" name="Nacionalidad" required>
+
+                        <option value="1"> Argentina</option>
+                        <option value="2"> Brasil</option>
+                        <option value="3"> Uruguay</option>
+
+                    </select>
+
+                    <!-- Checkbox -->
+
+                    <p class="terminosCondiciones">Acepta Los Terminos Y Condiciones</p>
+                    <input type="checkbox" name="acepta" value="SI" required>
+                    <div>
+                        <input class="botones" type="reset" value="Resetear campos">
+                        <input class="botones" type="submit" for="enviar-nombre" value="Subsribirme" required>
+                    </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="row">
+
+        <div class="logAlign col-12 d-flex justify-content-end animate__animated animate__flipInY">
+  
+          <a href="https://www.facebook.com/djjohndigweed" target="_blank"><i class="fab fa-facebook-square"></i>
+  
+          <a href="https://www.instagram.com/djjohndigweed/" target="_blank"><i class="fab fa-instagram"></i>
+  
+          <a href="https://open.spotify.com/artist/3xnDktxhudJR2Wv3HZDQ9W" target="_blank"><i class="fab fa-spotify"></i>
+  
+          <a href="https://www.mixcloud.com/johndigweed/" target="_blank"><i class="fab fa-mixcloud"></i>
+  
+        </div>
+      </footer>
+
+</body>
+
+</html>
