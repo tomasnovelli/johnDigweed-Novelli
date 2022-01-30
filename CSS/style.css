@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=M+PLUS+1+Code:wght@100&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,11 +9,37 @@ body {
 
 header {
   background-image: linear-gradient(#161616, black); }
-  header .logoSize {
-    width: 55vw;
-    position: relative;
-    top: 13%;
-    left: 5%; }
+
+.logoSize {
+  width: 200px;
+  position: relative;
+  top: 13px;
+  left: 40px; }
+
+hr {
+  border-bottom: 3px solid #fffb00; }
+
+footer {
+  background-color: #141413;
+  height: 7vh;
+  display: grid;
+  align-items: center; }
+
+.face {
+  width: 30px;
+  padding-right: 10%; }
+
+.insta {
+  width: 30px;
+  padding-right: 10%; }
+
+.spoty {
+  width: 30px;
+  padding-right: 10%; }
+
+.mixcloud {
+  width: 30px;
+  padding-right: 10%; }
 
 .grilla {
   display: grid;
@@ -31,15 +58,23 @@ header {
 
 .jdIndex {
   margin-top: 10%;
-  width: 70vw; }
+  width: 100vw; }
 
 .bio {
+  width: 95%;
+  position: relative;
+  left: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  border-bottom: solid yellow 1px; }
+  border-bottom: solid #e4e70e 1px; }
+
+.parrafoBio {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  padding: 10px; }
 
 .cuadrado {
   padding-left: 5px;
@@ -87,7 +122,7 @@ header {
 
 /* FORMATO MIX */
 .mixCuadrado {
-  border-bottom: solid yellow 1px;
+  border-bottom: solid #e4e70e 1px;
   width: 90vw;
   display: flex;
   justify-content: center;
@@ -157,3 +192,182 @@ header {
   width: 250px;
   height: 150px;
   margin-top: 4%; }
+
+.grillaEventos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "section1 section1 section1 section1 section1" "section1 section1 section1 section1 section1" "section2 section2 section2 section2 section2" "section2 section2 section2 section2 section2"; }
+
+.section1 {
+  grid-area: section1;
+  height: 250px; }
+
+.section2 {
+  grid-area: section2;
+  height: 250px; }
+
+.tabla {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.tablaTitular {
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.fila {
+  border-bottom: solid #e4e70e 2px;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+@media (min-width: 375px) {
+  .grilla {
+    grid-template-rows: 0.3fr 0.3fr 1fr 1fr 1fr; } }
+
+@media (min-width: 425px) {
+  .grilla {
+    grid-template-rows: 0.4fr 0.3fr 1fr 1fr 1fr; }
+  .grilla2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+  .videoTitulo1, .videoTitulo2, .videoTitulo3, .videoTitulo4 {
+    font-size: 18.5px; }
+  .videoYoutube1 {
+    width: 350px;
+    height: 210px; }
+  .videoYoutube2 {
+    width: 350px;
+    height: 210px; }
+  .videoYoutube3 {
+    width: 350px;
+    height: 210px; }
+  .videoYoutube4 {
+    width: 350px;
+    height: 210px; } }
+
+@media (min-width: 768px) {
+  .grilla {
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.2fr; }
+  .jdIndex {
+    width: 70vw;
+    position: relative;
+    left: 13%; }
+  .logoSize {
+    position: relative;
+    top: 15px;
+    left: 80px;
+    width: 250px; }
+  .bio {
+    position: relative;
+    left: 20px;
+    width: 95%; }
+  .cuadrado {
+    position: relative;
+    left: 5px; }
+  h1 {
+    margin-top: 10%; }
+  .grilla2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 1fr 0.8fr 1fr 1fr 0.8fr;
+    grid-auto-columns: 1fr;
+    gap: 15px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "titulo titulo titulo titulo titulo titulo" "video1 video1 video1 video2 video2 video2" "video1 video1 video1 video2 video2 video2" "video1 video1 video1 video2 video2 video2" "video3 video3 video3 video4 video4 video4" "video3 video3 video3 video4 video4 video4" "video3 video3 video3 video4 video4 video4"; }
+  .mixTexto {
+    position: relative;
+    bottom: 10%;
+    font-size: 35px; }
+  .videoTitulo1 {
+    font-size: 25px;
+    text-align: center; }
+  .videoTitulo2 {
+    font-size: 25px;
+    text-align: center; }
+  .videoTitulo3 {
+    font-size: 25px;
+    text-align: center; }
+  .videoTitulo4 {
+    font-size: 25px;
+    text-align: center; } }
+
+/* CENTRADO NAV BAR */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center; } }
+
+@media (min-width: 1024px) {
+  .logoSize {
+    position: relative;
+    left: 90px; }
+  .grilla {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.3fr 0.3fr 0.1fr;
+    gap: 0px 15px;
+    grid-template-areas: "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2"; }
+  .section1 {
+    grid-area: section1;
+    height: 650px; }
+  .section2 {
+    grid-area: section2;
+    height: 650px; }
+  .jdIndex {
+    margin-top: 15%;
+    width: 40vw;
+    position: relative;
+    left: 13%; }
+  .cuadrado {
+    height: 70%;
+    overflow: auto; }
+  .grilla2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 1fr 0.8fr 1fr 1fr 0.8fr;
+    grid-auto-columns: 1fr;
+    gap: 15px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "titulo titulo titulo titulo titulo titulo" "video1 video1 video1 video2 video2 video2" "video1 video1 video1 video2 video2 video2" "video1 video1 video1 video2 video2 video2" "video3 video3 video3 video4 video4 video4" "video3 video3 video3 video4 video4 video4" "video3 video3 video3 video4 video4 video4"; }
+  .mixTexto {
+    position: relative;
+    bottom: 10%;
+    font-size: 35px; }
+  .videoTitulo1 {
+    font-size: 30px;
+    text-align: center; }
+  .videoTitulo2 {
+    font-size: 30px;
+    text-align: center; }
+  .videoTitulo3 {
+    font-size: 30px;
+    text-align: center; }
+  .videoTitulo4 {
+    font-size: 30px;
+    text-align: center; }
+  .videoYoutube1 {
+    width: 480px;
+    height: 300px; }
+  .videoYoutube2 {
+    width: 480px;
+    height: 300px; }
+  .videoYoutube3 {
+    width: 480px;
+    height: 300px; }
+  .videoYoutube4 {
+    width: 480px;
+    height: 300px; } }

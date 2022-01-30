@@ -2,13 +2,19 @@
 header{
     background-image:linear-gradient(rgb(22, 22, 22), black);
 
-    .logoSize{
-        width: 55vw;
-        position: relative;
-        top: 13%;
-        left: 5%;
-        
-        
-    } 
 
-}   
+}
+
+
+.logoSize{
+    width: 200px;
+    position: relative;
+    top: 13px;
+    left: 40px;
+           
+}
+
+hr{
+    border-bottom: 3px solid rgb(255, 251, 0);
+
+}

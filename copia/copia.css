@@ -67,6 +67,10 @@ header{
 } 
 /* ELEGIR FUENTES Y HACER UN MIXIN CON ESTO */
 
+h1{
+    position: relative;
+    margin-top: 10%;
+}
 
 
 

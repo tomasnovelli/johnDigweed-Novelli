@@ -9,7 +9,12 @@ body{
 }
 
 @import './variables/fuentes';
+@import './variables/colores';
+@import './variables/mixins';
 
+
+@import './secciones/header';
+@import './secciones/footer';
 @import './secciones/index';
 @import './secciones/musica';
 @import './secciones/eventos';
@@ -17,3 +22,4 @@ body{
 @import './secciones/contacto';
 
 @import './mediasQueris/mediasQueris';
+
