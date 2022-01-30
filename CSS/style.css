@@ -5,10 +5,22 @@
 }
 
 body{
-    background-image: linear-gradient(black , black, #083b44 );
+    background-color: black;
 }
     /* SECCION MUSICA */
     /* GRILLA INDEX */
+
+header{
+    background-image:linear-gradient(rgb(22, 22, 22), black) ;
+}    
+
+    .logoSize{
+        position: relative;
+        top: 13%;
+        left: 5%;
+        width: 55vw;
+        
+    }    
 
 .grilla{
     display: grid; 
@@ -37,13 +49,7 @@ body{
 
   /* LOGO HEADER */
 
-.logoSize{
-    position: relative;
-    top: 13%;
-    left: 5%;
-    width: 55vw;
-    
-}
+
 
 .tiempoAnimacion{
     animation-delay: 0.2s;
@@ -248,6 +254,7 @@ h1{
 /* FOOTER */
 
 footer{
+    background-color: rgb(20, 20, 19);
     height: 7vh;
     display: grid;
     align-items: center;
