@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+@import './variables/fuentes';
+
+@import './secciones/index';
+@import './secciones/musica';
+@import './secciones/eventos';
+@import './secciones/tienda';
+@import './secciones/contacto';
+
+@import './mediasQueris/mediasQueris';
