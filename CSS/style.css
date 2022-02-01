@@ -217,15 +217,32 @@ footer {
   left: 5%; }
 
 .radioInput {
-  display: grid;
+  display: flex;
   justify-content: center; }
 
 .opcionSex {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  position: relative;
+  top: 30%; }
+
+.alinearTexto {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40%; }
+
+.textoCondiciones {
+  margin-top: 1%;
+  padding: 15px;
+  font-size: 10px; }
 
 .terminosCondiciones {
-  margin-top: 50px; }
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 50%; }
 
 /* BOTONES */
 .botones {
