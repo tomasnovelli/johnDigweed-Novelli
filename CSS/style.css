@@ -196,7 +196,7 @@ footer {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   width: 90%;
   margin-top: 30px;
   background-color: #141413;
@@ -209,10 +209,20 @@ footer {
   left: 5%;
   top: 40%; }
 
-input {
+.tamanioInput {
   width: 90%;
+  height: 30px;
+  padding: 5px;
   position: relative;
   left: 5%; }
+
+.radioInput {
+  display: grid;
+  justify-content: center; }
+
+.opcionSex {
+  display: flex;
+  justify-content: center; }
 
 .terminosCondiciones {
   margin-top: 50px; }

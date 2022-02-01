@@ -13,7 +13,7 @@
 
 .formulario{
     @include fontStyle ();
-    font-size: 12px;
+    font-size: 13px;
     width: 90%;
     margin-top: 30px;
     background-color: $colorFooter;
@@ -30,18 +30,21 @@
     top: 40%;
 }
 
-input{
+.tamanioInput{
     width: 90%;
+    height: 30px;
+    padding: 5px;
     position: relative;
     left: 5%;
 }
 
-.opcionSex{
-
+.radioInput{
+    display: grid;
+    justify-content: center;
 }
-
-.text{
-
+.opcionSex{
+    display: flex;
+    justify-content: center;
 }
 
 .terminosCondiciones{
