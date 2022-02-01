@@ -10,6 +10,21 @@ body {
 header {
   background-image: linear-gradient(#161616, black); }
 
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Epilogue", sans-serif; }
+
+.dropdown-menu {
+  background-color: #141413; }
+
+.dropdown-item {
+  text-decoration: none;
+  color: white;
+  font-family: "Epilogue", sans-serif; }
+  .dropdown-item:hover {
+    background-color: #e4e70e; }
+
 .logoSize {
   width: 200px;
   position: relative;

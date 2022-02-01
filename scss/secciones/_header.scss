@@ -2,9 +2,22 @@
 header{
     background-image:linear-gradient(rgb(22, 22, 22), black);
 
-
 }
 
+.nav-link{
+    @include fontStyle();
+}
+
+.dropdown-menu{
+    background-color: $colorFooter
+}
+
+.dropdown-item{
+    @include fontStyle();
+    &:hover{
+        background-color: $colorLineas;
+    }
+}
 
 .logoSize{
     width: 200px;
