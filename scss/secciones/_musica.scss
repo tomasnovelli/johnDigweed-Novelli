@@ -71,85 +71,28 @@
     /* MIX TEXTO */
 
 .mixTexto{
-    color: white;
+    
+    @include fontStyle();
     text-decoration: none;
     font-size: 25px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
+ 
 }
 
 /* MIX VIDEOS TITULOS */
 
-.videoTitulo1{
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14.5px;
-    text-decoration: underline;
-    position: relative;
-    top: 5px;
-    animation-duration: 2s;
+.videoTitulo1, .videoTitulo2, .videoTitulo3, .videoTitulo4{
+
+    @include fontStyle();
+
+    @include videoTitulo(14.5px, 5px);
 
   }
 
-.videoTitulo2{
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14.5px;
-    text-decoration: underline;
-    position: relative;
-    top: 5px;
-    animation-duration: 2s;
-
-}
-
-.videoTitulo3{
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14.5px;
-    text-decoration: underline;
-    position: relative;
-    top: 5px;
-    animation-duration: 2s;
-
-}
-
-.videoTitulo4{
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14.5px;
-    text-decoration: underline;
-    position: relative;
-    top: 5px;
-    animation-duration: 2s;
-
-}
 
 /* MIX VIDEOS YOUTUBE */
 
 .videoYoutube1{
-    width: 250px;
-    height: 150px;
-    margin-top: 4%;
 
-}
-
-.videoYoutube2{
-    width: 250px;
-    height: 150px;
-    margin-top: 4%;
-
-}
-
-.videoYoutube3{
-    width: 250px;
-    height: 150px;
-    margin-top: 4%;
-
-}
-
-.videoYoutube4{
-    width: 250px;
-    height: 150px;
-    margin-top: 4%;
+    @include videoStyle (250px, 150px);
 
 }

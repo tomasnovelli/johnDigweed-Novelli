@@ -1,5 +1,20 @@
-@mixin fontStyle {
+@mixin fontStyle  {
+    text-decoration: none;
     color: white;
     font-family: $san-serif;
-    text-align: center;
+
+}
+
+@mixin videoTitulo ($fontSize, $top) {
+    font-size: $fontSize;
+    text-decoration: underline;
+    position: relative;
+    top: $top;
+    animation-duration: 2s;
+}
+
+@mixin videoStyle ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    margin-top: 4%;
 }

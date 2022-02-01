@@ -1,0 +1,59 @@
+
+
+.registro{
+    @include fontStyle();
+    width: 95%;
+    border-bottom: solid $colorLineas 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    position: relative;
+    left: 2.5%;
+}
+
+.formulario{
+    @include fontStyle ();
+    font-size: 12px;
+    width: 90%;
+    margin-top: 30px;
+    background-color: $colorFooter;
+    display: grid;
+    // justify-content: center;
+    position: relative;
+    left: 5.3%;
+
+}
+
+.textForm{
+    position: relative;
+    left: 5%;
+    top: 40%;
+}
+
+input{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.opcionSex{
+
+}
+
+.text{
+
+}
+
+.terminosCondiciones{
+    margin-top: 50px;
+}
+
+/* BOTONES */
+
+.botones{
+    height: 23px;
+    width: 120px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;        
+}
