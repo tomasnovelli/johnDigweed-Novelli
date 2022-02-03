@@ -26,9 +26,10 @@ header {
     background-color: #e4e70e; }
 
 .logoSize {
-  width: 200px;
+  width: 180px;
   position: relative;
-  top: 13px; }
+  top: 5px;
+  left: 10px; }
 
 hr {
   border-bottom: 3px solid #3f3f3d; }
@@ -197,6 +198,183 @@ footer {
 
 .section3 {
   grid-area: section3; }
+
+.grillaDiscos {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
+  gap: 10px 0px;
+  grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo" "section1 section1 section1 section1 section1 section1 section1" "disco1 disco1 disco1 disco1 disco1 disco1 disco1" "section2 section2 section2 section2 section2 section2 section2" "disco2 disco2 disco2 disco2 disco2 disco2 disco2" "section3 section3 section3 section3 section3 section3 section3" "disco3 disco3 disco3 disco3 disco3 disco3 disco3" "section4 section4 section4 section4 section4 section4 section4" "disco4 disco4 disco4 disco4 disco4 disco4 disco4" "section5 section5 section5 section5 section5 section5 section5" "disco5 disco5 disco5 disco5 disco5 disco5 disco5" "section6 section6 section6 section6 section6 section6 section6" "disco6 disco6 disco6 disco6 disco6 disco6 disco6" "section7 section7 section7 section7 section7 section7 section7" "disco7 disco7 disco7 disco7 disco7 disco7 disco7" "section8 section8 section8 section8 section8 section8 section8" "disco8 disco8 disco8 disco8 disco8 disco8 disco8" "section9 section9 section9 section9 section9 section9 section9" "disco9 disco9 disco9 disco9 disco9 disco9 disco9" "section10 section10 section10 section10 section10 section10 section10" "disco10 disco10 disco10 disco10 disco10 disco10 disco10"; }
+
+.titulo {
+  grid-area: titulo;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  position: relative;
+  bottom: 20%; }
+
+.section1 {
+  grid-area: section1;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-items: center; }
+
+.disco1 {
+  grid-area: disco1;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section2 {
+  grid-area: section2;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco2 {
+  grid-area: disco2;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section3 {
+  grid-area: section3;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco3 {
+  grid-area: disco3;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section4 {
+  grid-area: section4;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco4 {
+  grid-area: disco4;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section5 {
+  grid-area: section5;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco5 {
+  grid-area: disco5;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section6 {
+  grid-area: section6;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco6 {
+  grid-area: disco6;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section7 {
+  grid-area: section7;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco7 {
+  grid-area: disco7;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section8 {
+  grid-area: section8;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco8 {
+  grid-area: disco8;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section9 {
+  grid-area: section9;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco9 {
+  grid-area: disco9;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section10 {
+  grid-area: section10;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.disco10 {
+  grid-area: disco10;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.discos {
+  border-bottom: solid #e4e70e 1px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  animation-duration: 2s;
+  text-decoration: none;
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  text-decoration: none; }
+
+.imgDiscos {
+  width: 70vw; }
+
+.titulosDiscos {
+  text-decoration: none;
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px; }
 
 .registro {
   text-decoration: none;

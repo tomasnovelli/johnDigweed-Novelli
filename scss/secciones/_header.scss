@@ -9,7 +9,7 @@ header{
 }
 
 .dropdown-menu{
-    background-color: $colorFooter
+    background-color: $colorFooter;
 }
 
 .dropdown-item{
@@ -20,9 +20,10 @@ header{
 }
 
 .logoSize{
-    width: 200px;
+    width: 180px;
     position: relative;
-    top: 13px;
+    top: 5px;
+    left: 10px;
            
 }
 
