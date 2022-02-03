@@ -101,8 +101,39 @@
             "video3 video3 video3 video4 video4 video4"
 }
 
+.titulo { 
+    grid-area: titulo;
+    width: 100%;
+
+  }
+  
+  .video1 { 
+    grid-area: video1;
+    width: 100%;
+
+  }
+  
+  .video2 { 
+    grid-area: video2;
+    width: 100%;
+
+  }
+  
+  .video3 {
+    grid-area: video3;
+    width: 100%;
+
+  }
+  
+  .video4 { 
+    grid-area: video4;
+    width: 100%;
+
+  }
+
     .mixTexto{
         position: relative;
+        width: 100%;
         bottom: 10%;
         font-size: 35px;
     }

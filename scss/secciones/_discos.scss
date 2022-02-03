@@ -7,31 +7,40 @@
     gap: 10px 0px; 
     grid-template-areas: 
       "titulo titulo titulo titulo titulo titulo titulo"
-      "section1 section1 section1 section1 section1 section1 section1"
+
+      "album1 album1 album1 album1 album1 album1 album1"
       "disco1 disco1 disco1 disco1 disco1 disco1 disco1"
-      "section2 section2 section2 section2 section2 section2 section2"
+
+      "album2 album2 album2 album2 album2 album2 album2"
       "disco2 disco2 disco2 disco2 disco2 disco2 disco2"
-      "section3 section3 section3 section3 section3 section3 section3"
+
+      "album3 album3 album3 album3 album3 album3 album3"
       "disco3 disco3 disco3 disco3 disco3 disco3 disco3"
-      "section4 section4 section4 section4 section4 section4 section4"
+
+      "album4 album4 album4 album4 album4 album4 album4"
       "disco4 disco4 disco4 disco4 disco4 disco4 disco4"
-      "section5 section5 section5 section5 section5 section5 section5"
+
+      "album5 album5 album5 album5 album5 album5 album5"
       "disco5 disco5 disco5 disco5 disco5 disco5 disco5"
-      "section6 section6 section6 section6 section6 section6 section6"
+
+      "album6 album6 album6 album6 album6 album6 album6"
       "disco6 disco6 disco6 disco6 disco6 disco6 disco6"
-      "section7 section7 section7 section7 section7 section7 section7"
+
+      "album7 album7 album7 album7 album7 album7 album7"
       "disco7 disco7 disco7 disco7 disco7 disco7 disco7"
-      "section8 section8 section8 section8 section8 section8 section8"
+
+      "album8 album8 album8 album8 album8 album8 album8"
       "disco8 disco8 disco8 disco8 disco8 disco8 disco8"
-      "section9 section9 section9 section9 section9 section9 section9"
+
+      "album9 album9 album9 album9 album9 album9 album9"
       "disco9 disco9 disco9 disco9 disco9 disco9 disco9"
-      "section10 section10 section10 section10 section10 section10 section10"
+
+      "album10 album10 album10 album10 album10 album10 album10"
       "disco10 disco10 disco10 disco10 disco10 disco10 disco10"; 
   }
 
   .titulo { 
       grid-area: titulo;
-
       width: 100vw;
       display: grid;
       justify-content: center;
@@ -39,8 +48,8 @@
       bottom: 20%;
     }
 
-    .section1 { 
-        grid-area: section1;
+    .album1 { 
+        grid-area: album1;
         width: 100vw;
         display: grid;
         justify-content: center;
@@ -49,36 +58,36 @@
 
   .disco1 { 
       grid-area: disco1;
-
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
-  .section2 { 
-      grid-area: section2;
 
+  .album2 { 
+      grid-area: album2;
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
+
   .disco2 { 
       grid-area: disco2;
-
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
-  .section3 { 
-      grid-area: section3;
 
+  .album3 { 
+      grid-area: album3;
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
+
   .disco3 { 
       grid-area: disco3;
 
@@ -87,30 +96,31 @@
       justify-content: center;
       align-items: center;
     }
-  .section4 { 
-      grid-area: section4;
 
+  .album4 { 
+      grid-area: album4;
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
+
   .disco4 { 
       grid-area: disco4;
-
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
-  .section5 { 
-      grid-area: section5;
 
+  .album5 { 
+      grid-area: album5;
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
+
   .disco5 { 
       grid-area: disco5;
 
@@ -119,30 +129,31 @@
       justify-content: center;
       align-items: center; 
     }
-  .section6 { 
-      grid-area: section6;
 
+  .album6 { 
+      grid-area: album6;
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
+
   .disco6 { 
       grid-area: disco6;
-
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
-  .section7 { 
-      grid-area: section7;
 
+  .album7 { 
+      grid-area: album7;
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
+
   .disco7 { 
       grid-area: disco7;
 
@@ -151,25 +162,24 @@
       justify-content: center;
       align-items: center; 
     }
-  .section8 { 
-      grid-area: section8;
 
+  .album8 { 
+      grid-area: album8;
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
+
   .disco8 { 
       grid-area: disco8;
-
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
-  .section9 { 
-      grid-area: section9;
-
+  .album9 { 
+      grid-area: album9;
       width: 100vw;
       display: flex;
       justify-content: center;
@@ -177,15 +187,13 @@
     }
   .disco9 { 
       grid-area: disco9;
-
       width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center; 
     }
-  .section10 { 
-      grid-area: section10;
-
+  .album10 { 
+      grid-area: album10;
       width: 100vw;
       display: flex;
       justify-content: center;

@@ -23,6 +23,7 @@
 
   .titulo { 
     grid-area: titulo;
+    width: 100vw;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -31,6 +32,7 @@
   
   .video1 { 
     grid-area: video1;
+    width: 100vw;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -38,6 +40,7 @@
   
   .video2 { 
     grid-area: video2;
+    width: 100vw;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -45,6 +48,7 @@
   
   .video3 {
     grid-area: video3;
+    width: 100vw;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -52,6 +56,7 @@
   
   .video4 { 
     grid-area: video4;
+    width: 100vw;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -91,7 +96,7 @@
 
 /* MIX VIDEOS YOUTUBE */
 
-.videoYoutube1{
+.videoYoutube1, .videoYoutube2, .videoYoutube3, .videoYoutube4{
 
     @include videoStyle (250px, 150px);
 
