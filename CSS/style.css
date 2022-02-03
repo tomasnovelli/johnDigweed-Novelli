@@ -41,7 +41,18 @@ footer {
   background-color: #141413;
   height: 7vh;
   display: grid;
+  justify-content: center;
   align-items: center; }
+
+.fab {
+  color: white;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10%; }
+  .fab:hover {
+    background-color: #e4e70e;
+    color: black;
+    transform: scale(1.2, 1.2) translateY(-2px); }
 
 .face {
   width: 30px;
