@@ -79,3 +79,11 @@
     font-weight: bold;
      
 }
+
+.list-group-item{
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: white;
+    background-color: $colorFooter;
+}

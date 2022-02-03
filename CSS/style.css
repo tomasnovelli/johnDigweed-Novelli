@@ -33,6 +33,9 @@ header {
 hr {
   border-bottom: 3px solid #3f3f3d; }
 
+.footer {
+  width: 100%; }
+
 footer {
   background-color: #141413;
   height: 7vh;
@@ -266,6 +269,13 @@ footer {
   text-align: center;
   font-size: 13px;
   font-weight: bold; }
+
+.list-group-item {
+  display: flex;
+  justify-content: center;
+  border: none;
+  color: white;
+  background-color: #141413; }
 
 @media (min-width: 375px) {
   .grilla {
