@@ -1,0 +1,170 @@
+.grillaMerch {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr; 
+    gap: 10px 0px; 
+    grid-template-areas: 
+      "titulo titulo titulo titulo titulo titulo titulo"
+
+      "merch1 merch1 merch1 merch1 merch1 merch1 merch1"
+      "titMerch1 titMerch1 titMerch1 titMerch1 titMerch1 titMerch1 titMerch1"
+
+      "merch2 merch2 merch2 merch2 merch2 merch2 merch2"
+      "titMerch2 titMerch2 titMerch2 titMerch2 titMerch2 titMerch2 titMerch2"
+
+      "merch3 merch3 merch3 merch3 merch3 merch3 merch3"
+      "titMerch3 titMerch3 titMerch3 titMerch3 titMerch3 titMerch3 titMerch3"
+
+      "merch4 merch4 merch4 merch4 merch4 merch4 merch4"
+      "titMerch4 titMerch4 titMerch4 titMerch4 titMerch4 titMerch4 titMerch4"
+
+      "merch5 merch5 merch5 merch5 merch5 merch5 merch5"
+      "titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5"; 
+  }
+
+  .titulo { 
+      grid-area: titulo;
+      width: 100vw;
+      display: grid;
+      justify-content: center;
+      position: relative;
+      bottom: 20%;
+    }
+
+    .merch1 { 
+        grid-area: merch1;
+        width: 100vw;
+        display: grid;
+        justify-content: center;
+        align-items: center;  
+      }
+
+  .titMerch1 { 
+      grid-area: titMerch1;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+  .merch2 { 
+      grid-area: merch2;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+  .titMerch2 { 
+      grid-area: titMerch2;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+  .merch3 { 
+      grid-area: merch3;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+  .titMerch3 { 
+      grid-area: titMerch3;
+
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .merch4 { 
+      grid-area: merch4;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+  .titMerch4 { 
+      grid-area: titMerch4;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+  .merch5 { 
+      grid-area: merch5;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+  .titMerch5 { 
+      grid-area: titMerch5;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+    .imgMerch{
+        width: 70vw;
+    }
+    @media (min-width:768px){
+        .grillaMerch {
+            display: grid; 
+            grid-auto-columns: 1fr; 
+            grid-auto-rows: 1fr; 
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+            grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr; 
+            gap: 10px 0px; 
+            grid-template-areas: 
+              "titulo titulo titulo titulo titulo titulo titulo titulo"
+        
+              "merch1 merch1 merch1 merch1 merch2 merch2 merch2 merch2"
+              "titMerch1 titMerch1 titMerch1 titMerch1 titMerch2 titMerch2 titMerch2 titMerch2"
+        
+              "merch3 merch3 merch3 merch3 merch4 merch4 merch4 merch4"
+              "titMerch3 titMerch3 titMerch3 titMerch3 titMerch4 titMerch4 titMerch4 titMerch4"
+        
+              "merch5 merch5 merch5 merch5 merch5 merch5 merch5 merch5"
+              "titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5"; 
+          }
+
+          .merch1, .merch2, .merch3, .merch4, .merch5{
+              width: 50vw;
+          }
+          .titMerch1, .titMerch2, .titMerch3, .titMerch4, .titMerch5{
+              width: 50vw;
+          }
+        
+    .imgMerch{
+        width: 30vw;
+    }
+
+}
+  
+
+  
+
+  
+  
+  
+ 
+  
+  
+  
+
+  
+
+  
+ 
+  
+ 
