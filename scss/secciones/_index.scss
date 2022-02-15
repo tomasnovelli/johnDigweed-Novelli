@@ -23,15 +23,17 @@
     grid-area: section2;
   }
 
+
 .jdIndex{
-    margin-top: 10%;
     width: 100vw;
 
 }
 
+
 .bio{
 
     @include fontStyle();
+    padding-top: 100px;
     width: 95%;
     display: flex;
     align-items: center;

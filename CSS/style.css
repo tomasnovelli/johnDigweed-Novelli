@@ -31,7 +31,7 @@ header {
     background-color: #e4e70e; }
 
 .logoSize {
-  width: 180px;
+  width: 250px;
   position: relative;
   top: 5px;
   left: 40px; }
@@ -75,13 +75,13 @@ footer {
   grid-area: section2; }
 
 .jdIndex {
-  margin-top: 10%;
   width: 100vw; }
 
 .bio {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
+  padding-top: 100px;
   width: 95%;
   display: flex;
   align-items: center;
@@ -155,11 +155,14 @@ footer {
 
 /* MIX TEXTO */
 .mixTexto {
+  border-bottom: solid #e4e70e 1px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  text-decoration: none;
-  font-size: 25px; }
+  text-decoration: none; }
 
 /* MIX VIDEOS TITULOS */
 .videoTitulo1, .videoTitulo2, .videoTitulo3, .videoTitulo4 {
@@ -340,7 +343,6 @@ footer {
   width: 90vw;
   display: flex;
   justify-content: center;
-  animation-duration: 2s;
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
