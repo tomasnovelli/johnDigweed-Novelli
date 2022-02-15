@@ -219,12 +219,12 @@
 }
 
 .imgDiscos{
-    width: 70vw;
+    width: 60vw;
 }
 
 .titulosDiscos{
     @include fontStyle();
-    font-size: 15px;
+    font-size: 25px;
 }
 
 @media (min-width:768px){
