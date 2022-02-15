@@ -56,13 +56,12 @@
     .jdIndex{
         width: 70vw;
         position: relative;
-        
         left: 13%;
     }
 
     .logoSize{
         position: relative;
-        top: 15px;
+        top: 8px;
         left: 80px;
         width: 250px;
     }  
@@ -201,12 +200,12 @@
         
           .section1{
             grid-area: section1;
-            height: 650px;
+            height: 100vh;
         
           }
           .section2{
             grid-area: section2;
-            height: 650px;
+            height: 100vh;
           }
 
         .jdIndex{
@@ -291,4 +290,15 @@
         height: 300px;
 
     }
+}
+
+@media (min-width:1440px){
+
+    .logoSize{
+        position: relative;
+        left: 190px;
+        width: 300px;
+    }
+    
+
 }

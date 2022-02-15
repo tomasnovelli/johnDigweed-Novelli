@@ -24,6 +24,8 @@ header {
   font-family: "Epilogue", sans-serif; }
   .dropdown-item:hover {
     background-color: #e4e70e; }
+  .dropdown-item:active {
+    background-color: #e4e70e; }
 
 .logoSize {
   width: 180px;
@@ -53,22 +55,6 @@ footer {
     background-color: #e4e70e;
     color: black;
     transform: scale(1.2, 1.2) translateY(-2px); }
-
-.face {
-  width: 30px;
-  padding-right: 10%; }
-
-.insta {
-  width: 30px;
-  padding-right: 10%; }
-
-.spoty {
-  width: 30px;
-  padding-right: 10%; }
-
-.mixcloud {
-  width: 30px;
-  padding-right: 10%; }
 
 .grilla {
   display: grid;
@@ -380,7 +366,7 @@ footer {
   .disco1, .disco2, .disco3, .disco4, .disco5, .disco6, .disco7, .disco8, .disco9, .disco10 {
     width: 50vw; }
   .imgDiscos {
-    width: 20vw; } }
+    width: 30vw; } }
 
 .registro {
   text-decoration: none;
@@ -602,7 +588,7 @@ footer {
     left: 13%; }
   .logoSize {
     position: relative;
-    top: 15px;
+    top: 8px;
     left: 80px;
     width: 250px; }
   .bio {
@@ -678,10 +664,10 @@ footer {
     grid-template-areas: "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2" "section1 section1 section1 section1 section2 section2 section2 section2"; }
   .section1 {
     grid-area: section1;
-    height: 650px; }
+    height: 100vh; }
   .section2 {
     grid-area: section2;
-    height: 650px; }
+    height: 100vh; }
   .jdIndex {
     margin-top: 15%;
     width: 40vw;
@@ -726,3 +712,9 @@ footer {
   .videoYoutube4 {
     width: 480px;
     height: 300px; } }
+
+@media (min-width: 1440px) {
+  .logoSize {
+    position: relative;
+    left: 190px;
+    width: 300px; } }

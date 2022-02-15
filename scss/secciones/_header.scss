@@ -17,6 +17,9 @@ header{
     &:hover{
         background-color: $colorLineas;
     }
+    &:active{
+        background-color: $colorLineas;
+    }
 }
 
 .logoSize{
