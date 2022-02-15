@@ -77,9 +77,6 @@
        left:5px;
    } 
 
-    h1{
-        margin-top: 10%;
-    }
 
 
 
@@ -161,6 +158,14 @@
         text-align: center;
 
     }
+
+    .fab{
+
+        font-size: 25px;
+        padding: 5px 25px 5px 25px;
+
+    }
+    
 }
 
     /* CENTRADO NAV BAR */
@@ -290,6 +295,12 @@
         height: 300px;
 
     }
+    .fab{
+
+        font-size: 30px;
+        padding: 5px 30px 5px 30px;
+
+    }
 }
 
 @media (min-width:1440px){
@@ -298,6 +309,13 @@
         position: relative;
         left: 190px;
         width: 300px;
+    }
+
+    .fab{
+
+        font-size: 35px;
+        padding: 5px 35px 5px 35px;
+
     }
     
 

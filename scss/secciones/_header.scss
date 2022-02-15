@@ -4,8 +4,16 @@ header{
 
 }
 
+
 .nav-link{
+    display: flex;
+    justify-content: center;
     @include fontStyle();
+    &:hover{
+        background-color: $colorFooter;
+        color: black;
+    }
+
 }
 
 .dropdown-menu{
@@ -17,9 +25,7 @@ header{
     &:hover{
         background-color: $colorLineas;
     }
-    &:active{
-        background-color: $colorLineas;
-    }
+
 }
 
 .logoSize{
