@@ -448,10 +448,6 @@ footer {
 .terminosCondiciones {
   display: inline-block; }
 
-.terminFlex {
-  display: grid;
-  justify-content: center; }
-
 /* BOTONES */
 .botones {
   height: 23px;
