@@ -389,7 +389,7 @@ footer {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   width: 90%;
   margin-top: 30px;
   background-color: #141413;
@@ -419,23 +419,38 @@ footer {
   position: relative;
   top: 30%; }
 
-.alinearTexto {
+.sexoAlinear {
   margin-top: 2%;
   display: flex;
   justify-content: center;
   position: relative;
   top: 40%; }
 
-.textoCondiciones {
-  margin-top: 1%;
-  padding: 15px;
-  font-size: 10px; }
-
-.terminosCondiciones {
+.nacionAlinear {
+  margin-top: 5%;
   display: flex;
   justify-content: center;
+  position: relative; }
+
+.cuadroNacion {
+  text-align: center;
+  height: 23px;
+  width: 120px;
   position: relative;
-  bottom: 50%; }
+  left: 42%; }
+
+.textoCondiciones {
+  display: flex;
+  margin-top: 1%;
+  padding: 30px 10px 0px 10px;
+  font-size: 15px; }
+
+.terminosCondiciones {
+  display: inline-block; }
+
+.terminFlex {
+  display: grid;
+  justify-content: center; }
 
 /* BOTONES */
 .botones {
