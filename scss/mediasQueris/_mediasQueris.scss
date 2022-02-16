@@ -128,10 +128,12 @@
   }
 
     .mixTexto{
-        position: relative;
-        width: 100%;
-        bottom: 10%;
-        font-size: 35px;
+        border-bottom: solid $colorLineas 1px;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        @include fontStyle();
+        text-decoration: none;
     }
 
 
@@ -184,7 +186,7 @@
 
         .logoSize{
             position: relative;
-            left: 90px;
+            left: 120px;
         }
 
         .grilla{
@@ -244,9 +246,12 @@
 }
 
     .mixTexto{
-        position: relative;
-        bottom: 10%;
-        font-size: 35px;
+        border-bottom: solid $colorLineas 1px;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        @include fontStyle();
+        text-decoration: none;
     }
 
 
@@ -307,7 +312,7 @@
 
     .logoSize{
         position: relative;
-        left: 190px;
+        left: 230px;
         width: 300px;
     }
 

@@ -627,10 +627,14 @@ footer {
     grid-area: video4;
     width: 100%; }
   .mixTexto {
-    position: relative;
-    width: 100%;
-    bottom: 10%;
-    font-size: 35px; }
+    border-bottom: solid #e4e70e 1px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Epilogue", sans-serif;
+    text-decoration: none; }
   .videoTitulo1 {
     font-size: 25px;
     text-align: center; }
@@ -659,7 +663,7 @@ footer {
 @media (min-width: 1024px) {
   .logoSize {
     position: relative;
-    left: 90px; }
+    left: 120px; }
   .grilla {
     display: grid;
     grid-auto-columns: 1fr;
@@ -691,9 +695,14 @@ footer {
     grid-auto-flow: row;
     grid-template-areas: "titulo titulo titulo titulo titulo titulo" "video1 video1 video1 video2 video2 video2" "video1 video1 video1 video2 video2 video2" "video1 video1 video1 video2 video2 video2" "video3 video3 video3 video4 video4 video4" "video3 video3 video3 video4 video4 video4" "video3 video3 video3 video4 video4 video4"; }
   .mixTexto {
-    position: relative;
-    bottom: 10%;
-    font-size: 35px; }
+    border-bottom: solid #e4e70e 1px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Epilogue", sans-serif;
+    text-decoration: none; }
   .videoTitulo1 {
     font-size: 30px;
     text-align: center; }
@@ -725,7 +734,7 @@ footer {
 @media (min-width: 1440px) {
   .logoSize {
     position: relative;
-    left: 190px;
+    left: 230px;
     width: 300px; }
   .fab {
     font-size: 35px;
