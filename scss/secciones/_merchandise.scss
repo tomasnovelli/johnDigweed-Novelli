@@ -114,6 +114,11 @@
       align-items: center; 
     }
 
+    .titulosMerch{
+      @include fontStyle();
+      font-size: 22px;
+  }
+
     .imgMerch{
         width: 60vw;
     }
