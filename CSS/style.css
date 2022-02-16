@@ -31,10 +31,10 @@ header {
     background-color: #e4e70e; }
 
 .logoSize {
-  width: 250px;
+  width: 190px;
   position: relative;
   top: 5px;
-  left: 40px; }
+  left: 10px; }
 
 hr {
   border-bottom: 3px solid #3f3f3d; }
@@ -69,19 +69,21 @@ footer {
   grid-template-areas: "section1 section1 section1 section1 section1 section1 section1 section1" "section1 section1 section1 section1 section1 section1 section1 section1" "section2 section2 section2 section2 section2 section2 section2 section2" "section2 section2 section2 section2 section2 section2 section2 section2" "section2 section2 section2 section2 section2 section2 section2 section2"; }
 
 .section1 {
-  grid-area: section1; }
+  grid-area: section1;
+  height: 50%; }
 
 .section2 {
-  grid-area: section2; }
+  grid-area: section2;
+  height: 50%; }
 
 .jdIndex {
+  margin-top: 5%;
   width: 100vw; }
 
 .bio {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  padding-top: 100px;
   width: 95%;
   display: flex;
   align-items: center;

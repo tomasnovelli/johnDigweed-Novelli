@@ -17,14 +17,17 @@
 
   .section1{
     grid-area: section1;
+    height: 50%;
 
   }
   .section2{
     grid-area: section2;
+    height: 50%;
   }
 
 
 .jdIndex{
+  margin-top: 5%;
     width: 100vw;
 
 }
@@ -33,7 +36,6 @@
 .bio{
 
     @include fontStyle();
-    padding-top: 100px;
     width: 95%;
     display: flex;
     align-items: center;
@@ -45,7 +47,6 @@
 }
 
 .parrafoBio{
-
     @include fontStyle();
     padding: 10px;
 
