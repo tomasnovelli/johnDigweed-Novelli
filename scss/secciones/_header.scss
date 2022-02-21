@@ -1,7 +1,7 @@
 
 header{
     background-image:linear-gradient(rgb(22, 22, 22), black);
-
+    border-bottom: 2px solid $colorFooter;
 }
 
 .nav-link{
@@ -35,7 +35,14 @@ header{
            
 }
 
-hr{
-    border-bottom: 3px solid rgb(63, 63, 61);
+// MEDIAS QUERIS
 
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
 }
+

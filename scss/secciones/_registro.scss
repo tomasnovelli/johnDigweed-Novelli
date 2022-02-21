@@ -43,10 +43,11 @@
     }
     .termsText{
         font-size: 12px;
+        .terms-accept{
+            margin-top: 2rem;
+        }
     }
-    .terms-accept{
-        margin-top: 2rem;
-    }
+    
     .container-buttons{
         margin-top: 1rem;
         input{

@@ -1,58 +1,62 @@
+.container-bio{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 80vh;
+  margin: auto;
 
-.grilla{
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-auto-rows: 1fr; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.2fr 1fr 1fr 1fr; 
-    gap: auto auto; 
-    grid-template-areas: 
-      "section1 section1 section1 section1 section1 section1 section1 section1"
-      "section1 section1 section1 section1 section1 section1 section1 section1"
-      "section2 section2 section2 section2 section2 section2 section2 section2"
-      "section2 section2 section2 section2 section2 section2 section2 section2"
-      "section2 section2 section2 section2 section2 section2 section2 section2";
-         
-  }
-
-  .section1{
-    grid-area: section1;
-    height: 50%;
-
-  }
-  .section2{
-    grid-area: section2;
-    height: 50%;
-  }
-
-
-.jdIndex{
-  margin-top: 5%;
-    width: 100vw;
-
-}
-
-
-.bio{
-
-    @include fontStyle();
-    width: 95%;
+  .container-img{
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: relative;
-    left: 10px;
-    border-bottom: solid $colorLineas 1px;
+    align-items: center;
+    flex: 1;
+    padding: 1rem;
 
+    img{
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .container-text{
+    @include fontStyle();
+    flex: 1;
+    overflow-y: scroll;
+    padding: 1rem;
+    .title{
+      text-align: center;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid $colorLineas;
+    }
+    .bold{
+      font-weight: bold;
+    }
+    .italic{
+      font-style: italic;
+    }
+    .boldItalic{
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
 }
 
-.parrafoBio{
-    @include fontStyle();
-    padding: 10px;
+// MEDIAS QUERIS
 
-} 
-
-.cuadrado{
-    padding-left: 5px;
-    padding-right: 5px;
+@media (max-width: 850px) {
+  
+  .container-bio{
+    flex-direction: column;
+    height: auto !important;
+    margin-bottom: 1rem;
+    .container-img{
+      background-position: top;
+      margin-bottom: .7rem;
+    }
+    .container-text{
+      overflow: visible;
+      margin-bottom: 1rem;
+    }
+  }
 }
