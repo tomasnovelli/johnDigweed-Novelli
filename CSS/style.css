@@ -357,7 +357,7 @@ footer {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  font-size: 22px; }
+  font-size: 15px; }
 
 @media (min-width: 768px) {
   .grillaDiscos {
@@ -445,7 +445,7 @@ footer {
   display: flex;
   margin-top: 1%;
   padding: 30px 10px 0px 10px;
-  font-size: 15px; }
+  font-size: 12px; }
 
 .terminosCondiciones {
   display: inline-block; }
@@ -556,7 +556,7 @@ footer {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  font-size: 22px; }
+  font-size: 15px; }
 
 .imgMerch {
   width: 60vw; }

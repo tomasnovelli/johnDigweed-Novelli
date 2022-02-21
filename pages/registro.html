@@ -77,90 +77,77 @@
     <!-- MAIN -->
 
     <main>
-        <div>
+      
+      <section class="titleReg">
 
-            <h1 class="registro animate__animated animate__flipInX">REGISTRO</h1>
-
-            <!-- Input TIPO TEXTO -->
-            <div>
-
-                <form class="formulario" action="#" method="GET">
-                  
-
-                    <p class="textForm">Nombre:</p>
-                    <input class="tamanioInput" type="text" placeholder="Ingresa Tu Nombre*" name="Nombre" label="enviar-nombre" required>
-
-                    <p class="textForm">Apellido:</p>
-                    <input class="tamanioInput" type="text" placeholder="Ingresa Tu Apellido*" name="Apellido" required>
-
-                    <p class="textForm">Edad:</p>
-                    <input class="tamanioInput" type="number" placeholder="Ingresa Tu Edad*" name="Edad" required>
-
-                    <p class="textForm">Telefono:</p>
-                    <input class="tamanioInput" type="tel" placeholder="Ingresa Tu Telefono" name="Telefono">
-
-                    
-                    <p class="textForm">Mail:</p>
-                    <input class="tamanioInput" type="text" placeholder="Ingresa Tu Mail*" name="Mail" required>
-
-
-                    <!-- Input TIPO RADIO -->
-
-                    <p class="sexoAlinear">Sexo:</p>
-                    
-                    <ul class="list-group">
-                      <li class="list-group-item">
-                        <input class="form-check-input me-1" type="radio" value="mujer" aria-label="Mujer" required>
-                        Mujer
-                      </li>
-                      <li class="list-group-item">
-                        <input class="form-check-input me-1" type="radio" value="hombre" aria-label="Hombre" required>
-                        Hombre
-                      </li>
-                      <li class="list-group-item">
-                        <input class="form-check-input me-1" type="radio" value="no binario" aria-label="No-Binario" required>
-                        No Binario
-                      </li>
-                      <li class="list-group-item">
-                        <input class="form-check-input me-1" type="radio" value="prefiero no decirlo" aria-label="Prefiero-No-Decirlo" required>
-                        Prefiero No Decirlo
-                      </li>
-                    <!-- desplegable -->
-
-                    <p class="nacionAlinear">Nacionalidad:</p>
-
-                    <select class="cuadroNacion" name="Nacionalidad" required>
-
-                        <option value="1"> Argentina</option>
-                        <option value="2"> Brasil</option>
-                        <option value="3"> Uruguay</option>
-
-                    </select>
-
-                    <!-- Checkbox -->
-
-                    <p class="textoCondiciones">John Digweed utilizará la información que proporcione en este formulario para estar en contacto con usted y proporcionarle actualizaciones y marketing.
-                      <br>
-                      Puede cambiar de opinión en cualquier momento haciendo clic en el enlace de cancelación de la suscripción en el pie de página de cualquier correo electrónico que reciba de nosotros, o poniéndose en contacto con nosotros en johndigweednews@gmail.com. Trataremos su información con respeto. 
-                      <br>
-                      Para más información sobre nuestras prácticas de privacidad, visite nuestro sitio web. Al hacer clic a continuación, usted acepta que procesemos su información de acuerdo con estos términos.
-                    </p>
-
-                    <br>
-
-                    <div class="terminFlex">
-                      
-                    <p class="terminosCondiciones"> Acepta Los Terminos Y Condiciones</p>
-                    <input type="checkbox" name="acepta" value="SI" required>
-                    
-                    </div>
-
-                    <div>
-                        <input class="botones" type="reset" value="Resetear campos">
-                        <input class="botones" type="submit" for="enviar-nombre" value="Subsribirme" required>
-                    </div>
-            </div>
-        </div>
+        <h1 class="lineReg animate__animated animate__flipInX">REGISTRO</h1>
+    
+      </section>
+    
+       <form class="container-form">
+          <div class="container-inputs">
+             <label for="name">Nombre:</label>
+             <input type="text" name="name" required>
+          </div>
+    
+          <div class="container-inputs">
+             <label for="lastname">Apellido:</label>
+             <input type="text" name="lastname" required>
+          </div>
+    
+          <div class="container-inputs">
+             <label for="age">Edad:</label>
+             <input type="number" name="age" required>
+          </div>
+    
+          <div class="container-inputs">
+             <label for="phone">Telefono:</label>
+             <input type="number" name="phone" required>
+          </div>
+    
+          <div class="container-inputs">
+             <label for="email">Mail:</label>
+             <input type="email" name="email" required>
+          </div>
+    
+          <div class="container-select">
+             <p>Sexo: </p>
+             <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir sexo</option>
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+                <option value="3">Otro</option>
+              </select>
+          </div>
+    
+          <div class="container-select">
+             <p>Nacionalidad: </p>
+             <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir nacionalidad</option>
+                <option value="1">Argentina</option>
+                <option value="2">Brasil</option>
+                <option value="3">Marruecos</option>
+              </select>
+          </div>
+    
+          <div class="container-terms">
+             <p class="termsText">
+                John Digweed utilizará la información que proporcione en este formulario para estar en contacto con usted y proporcionarle actualizaciones y marketing.   
+                Puede cambiar de opinión en cualquier momento haciendo clic en el enlace de cancelación de la suscripción en el pie de página de cualquier correo electrónico que reciba de nosotros, o poniéndose en contacto con nosotros en johndigweednews@gmail.com. Trataremos su información con respeto. 
+                Para más información sobre nuestras prácticas de privacidad, visite nuestro sitio web. Al hacer clic a continuación, usted acepta que procesemos su información de acuerdo con estos términos.
+             </p>
+             <div class="terms-accept">
+                <label for="acept">Acepta los terminos y condiciones</label>
+                <input type="checkbox" name="acept" value="SI" required>
+             </div>
+          </div>
+    
+          <div class="container-buttons">
+             <input type="reset" value="Resetear campos">
+             <input type="submit" value="Subsribirme" required>
+          </div>
+    
+        </form>
 
     </main>
 
