@@ -37,6 +37,17 @@ header{
 
 // MEDIAS QUERIS
 
+@media (min-width:768px){
+    .logoSize{
+        position: relative;
+        top: 8px;
+        left: 80px;
+        width: 250px;
+    }   
+}
+
+    /* CENTRADO NAV BAR */
+
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
         display: flex;
@@ -46,3 +57,17 @@ header{
     }
 }
 
+@media (min-width:1024px){
+    .logoSize{
+        position: relative;
+        left: 120px;
+    }
+}
+
+@media (min-width:1440px){
+    .logoSize{
+        position: relative;
+        left: 230px;
+        width: 300px;
+    }
+}

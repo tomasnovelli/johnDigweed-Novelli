@@ -23,3 +23,26 @@ footer{
         transform: scale(1.2, 1.2) translateY(-2px);
     }
 }
+
+//MEDIAS QUERIS
+
+@media (min-width:768px){
+    .fab{
+        font-size: 25px;
+        padding: 5px 25px 5px 25px;
+    }  
+}
+
+@media (min-width:1024px){
+    .fab{
+        font-size: 30px;
+        padding: 5px 30px 5px 30px;
+    }
+}
+
+@media (min-width:1440px){
+    .fab{
+        font-size: 35px;
+        padding: 5px 35px 5px 35px;
+    }
+}
