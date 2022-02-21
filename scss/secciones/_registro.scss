@@ -1,25 +1,17 @@
-
-.registro{
-    @include fontStyle();
-    width: 95%;
-    border-bottom: solid $colorLineas 1px;
+.titleReg{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    position: relative;
-    left: 2.5%;
-}
-
-.formulario{
-    @include fontStyle ();
-    font-size: 15px;
-    width: 90%;
-    margin-top: 30px;
-    background-color: $colorFooter;
-    display: grid;
-    position: relative;
-    left: 5.3%;
-
+    animation-duration: 2s;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+    .lineReg{
+        display: flex;
+        justify-content: center;
+        border-bottom: solid $colorLineas 1px;
+        width: 90vw;
+        @include fontStyle();
+        text-decoration: none;
+    }
 }
 
 .textForm{
