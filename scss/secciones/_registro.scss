@@ -14,82 +14,49 @@
     }
 }
 
-.textForm{
-    position: relative;
-    left: 5%;
-    top: 40%;
-}
-
-.tamanioInput{
-    width: 89%;
-    height: 30px;
-    padding: 5px;
-    position: relative;
-    left: 5%;
-}
-
-.radioInput{
+.container-form{
     display: flex;
-    justify-content: center;
-
-}
-.opcionSex{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 30%;
-}
-
-.sexoAlinear{
-    margin-top: 2%;
-    display: flex;
-    justify-content: center;   
-    position: relative;
-    top: 40%;
-}
-
-.nacionAlinear{
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;   
-    position: relative;
-}
-
-.cuadroNacion{
-    text-align: center;
-    height: 23px;
-    width: 120px;
-    position: relative;
-    left: 42%;
-}
-
-.textoCondiciones{
-    display: flex;
-    margin-top: 1%;
-    padding: 30px 10px 0px 10px;
-    font-size: 12px;
-}
-
-.terminosCondiciones{
-    display: inline-block;
-}
-
-
-/* BOTONES */
-
-.botones{
-    height: 23px;
-    width: 120px;
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
-     
-}
-
-.list-group-item{
-    display: flex;
-    justify-content: center;
-    border: none;
+    flex-direction: column;
     color: white;
     background-color: $colorFooter;
+    width: 80%;
+    max-width: 665px;
+    margin: auto auto 4rem auto;
+    padding: 2rem;
+    .container-inputs{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        label{
+            padding-bottom: .5rem;
+        }
+        input{
+            padding: .2rem .4rem;
+        }
+    }
+    .container-select{
+        margin-bottom: 1rem;
+        .form-select{
+            font-family: $san-serif;
+            font-size: 15px;
+        }
+    }
+    .termsText{
+        font-size: 12px;
+    }
+    .terms-accept{
+        margin-top: 2rem;
+    }
+    .container-buttons{
+        margin-top: 1rem;
+        input{
+            font-family: $san-serif;
+            outline: none;
+            border: none;
+            padding: .5rem;
+            border-radius: .2rem;
+            margin-right: .5rem;
+            margin-top: .5rem;
+        }
+    }
 }
