@@ -146,6 +146,7 @@ footer {
       margin-bottom: 1rem; } }
 
 .grilla2 {
+  margin-bottom: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -188,8 +189,7 @@ footer {
   width: 100vw;
   display: grid;
   justify-items: center;
-  align-items: center;
-  margin-bottom: 2.5rem; }
+  align-items: center; }
 
 /* FORMATO MIX */
 .mixCuadrado {
