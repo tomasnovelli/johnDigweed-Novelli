@@ -63,10 +63,10 @@ header {
     left: 230px;
     width: 300px; } }
 
-.footer {
-  width: 100%; }
-
 footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   background-color: #141413;
   height: 7vh;
   display: grid;
@@ -465,7 +465,8 @@ footer {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  font-size: 15px; }
+  font-size: 18px;
+  text-align: center; }
 
 @media (min-width: 768px) {
   .grillaDiscos {
@@ -627,7 +628,8 @@ footer {
   text-decoration: none;
   color: white;
   font-family: "Epilogue", sans-serif;
-  font-size: 15px; }
+  font-size: 18px;
+  text-align: center; }
 
 .imgMerch {
   width: 60vw; }

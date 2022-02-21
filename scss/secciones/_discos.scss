@@ -48,12 +48,12 @@
       bottom: 20%;
     }
 
-    .album1 { 
-        grid-area: album1;
-        width: 100vw;
-        display: grid;
-        justify-content: center;
-        align-items: center;  
+  .album1 { 
+      grid-area: album1;
+      width: 100vw;
+      display: grid;
+      justify-content: center;
+      align-items: center;  
       }
 
   .disco1 { 
@@ -90,7 +90,6 @@
 
   .disco3 { 
       grid-area: disco3;
-
       width: 100vw;
       display: flex;
       justify-content: center;
@@ -123,7 +122,6 @@
 
   .disco5 { 
       grid-area: disco5;
-
       width: 100vw;
       display: flex;
       justify-content: center;
@@ -223,7 +221,8 @@
 
 .titulosDiscos{
     @include fontStyle();
-    font-size: 15px;
+    font-size: 18px;
+    text-align: center;
 }
 
 @media (min-width:768px){
@@ -263,6 +262,6 @@
 
   .imgDiscos{
     width: 30vw;
-}
+  }
 
 }
