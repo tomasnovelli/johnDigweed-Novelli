@@ -125,6 +125,10 @@ footer {
       text-align: center;
       padding-bottom: .5rem;
       border-bottom: 1px solid #e4e70e; }
+    .container-bio .container-text .container-article {
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #e4e70e; }
     .container-bio .container-text .bold {
       font-weight: bold; }
     .container-bio .container-text .italic {
@@ -292,12 +296,13 @@ footer {
     height: 300px; } }
 
 .grillaDiscos {
+  margin-bottom: 3rem;
   display: grid;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
-  gap: 10px 0px;
+  gap: 50px 0px;
   grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo"  "album1 album1 album1 album1 album1 album1 album1" "disco1 disco1 disco1 disco1 disco1 disco1 disco1"  "album2 album2 album2 album2 album2 album2 album2" "disco2 disco2 disco2 disco2 disco2 disco2 disco2"  "album3 album3 album3 album3 album3 album3 album3" "disco3 disco3 disco3 disco3 disco3 disco3 disco3"  "album4 album4 album4 album4 album4 album4 album4" "disco4 disco4 disco4 disco4 disco4 disco4 disco4"  "album5 album5 album5 album5 album5 album5 album5" "disco5 disco5 disco5 disco5 disco5 disco5 disco5"  "album6 album6 album6 album6 album6 album6 album6" "disco6 disco6 disco6 disco6 disco6 disco6 disco6"  "album7 album7 album7 album7 album7 album7 album7" "disco7 disco7 disco7 disco7 disco7 disco7 disco7"  "album8 album8 album8 album8 album8 album8 album8" "disco8 disco8 disco8 disco8 disco8 disco8 disco8"  "album9 album9 album9 album9 album9 album9 album9" "disco9 disco9 disco9 disco9 disco9 disco9 disco9"  "album10 album10 album10 album10 album10 album10 album10" "disco10 disco10 disco10 disco10 disco10 disco10 disco10"; }
 
 .titulo {
@@ -311,14 +316,14 @@ footer {
 .album1 {
   grid-area: album1;
   width: 100vw;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center; }
 
 .disco1 {
   grid-area: disco1;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -332,7 +337,7 @@ footer {
 .disco2 {
   grid-area: disco2;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -346,7 +351,7 @@ footer {
 .disco3 {
   grid-area: disco3;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -360,7 +365,7 @@ footer {
 .disco4 {
   grid-area: disco4;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -374,7 +379,7 @@ footer {
 .disco5 {
   grid-area: disco5;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -388,7 +393,7 @@ footer {
 .disco6 {
   grid-area: disco6;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -402,7 +407,7 @@ footer {
 .disco7 {
   grid-area: disco7;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -416,7 +421,7 @@ footer {
 .disco8 {
   grid-area: disco8;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -430,7 +435,7 @@ footer {
 .disco9 {
   grid-area: disco9;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 
@@ -444,7 +449,7 @@ footer {
 .disco10 {
   grid-area: disco10;
   width: 100vw;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center; }
 

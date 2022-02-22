@@ -1,10 +1,11 @@
 .grillaDiscos {
+    margin-bottom: 3rem;
     display: grid; 
     grid-auto-columns: 1fr; 
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr; 
-    gap: 10px 0px; 
+    gap: 50px 0px; 
     grid-template-areas: 
       "titulo titulo titulo titulo titulo titulo titulo"
 
@@ -51,7 +52,7 @@
   .album1 { 
       grid-area: album1;
       width: 100vw;
-      display: grid;
+      display: flex;
       justify-content: center;
       align-items: center;  
       }
@@ -59,7 +60,7 @@
   .disco1 { 
       grid-area: disco1;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -75,7 +76,7 @@
   .disco2 { 
       grid-area: disco2;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -91,7 +92,7 @@
   .disco3 { 
       grid-area: disco3;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center;
     }
@@ -107,7 +108,7 @@
   .disco4 { 
       grid-area: disco4;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -123,7 +124,7 @@
   .disco5 { 
       grid-area: disco5;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -139,7 +140,7 @@
   .disco6 { 
       grid-area: disco6;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -154,9 +155,8 @@
 
   .disco7 { 
       grid-area: disco7;
-
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -172,7 +172,7 @@
   .disco8 { 
       grid-area: disco8;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -186,7 +186,7 @@
   .disco9 { 
       grid-area: disco9;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
@@ -200,7 +200,7 @@
   .disco10 { 
       grid-area: disco10;
       width: 100vw;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center; 
     }
