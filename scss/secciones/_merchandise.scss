@@ -1,4 +1,5 @@
 .grillaMerch {
+    margin-bottom: 3rem;
     display: grid; 
     grid-auto-columns: 1fr; 
     grid-auto-rows: 1fr; 
@@ -21,7 +22,16 @@
       "titMerch4 titMerch4 titMerch4 titMerch4 titMerch4 titMerch4 titMerch4"
 
       "merch5 merch5 merch5 merch5 merch5 merch5 merch5"
-      "titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5"; 
+      "titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5";
+      
+      .merchandise{
+        border-bottom: solid $colorLineas 1px;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        @include fontStyle();
+        text-decoration: none;
+    }   
   }
 
   .titulo { 
@@ -45,6 +55,7 @@
       grid-area: titMerch1;
       width: 100vw;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -61,6 +72,7 @@
       grid-area: titMerch2;
       width: 100vw;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -75,9 +87,9 @@
 
   .titMerch3 { 
       grid-area: titMerch3;
-
       width: 100vw;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
@@ -94,6 +106,7 @@
       grid-area: titMerch4;
       width: 100vw;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -110,6 +123,7 @@
       grid-area: titMerch5;
       width: 100vw;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }

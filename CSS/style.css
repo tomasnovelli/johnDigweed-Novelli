@@ -315,12 +315,16 @@ footer {
     text-decoration: none; }
   .grillaDiscos .imgDiscos {
     width: 60vw; }
+    .grillaDiscos .imgDiscos:hover {
+      transform: scale(1.1, 1.1) translateY(2px); }
   .grillaDiscos .titulosDiscos {
     text-decoration: none;
     color: white;
     font-family: "Epilogue", sans-serif;
     font-size: 18px;
     text-align: center; }
+  .grillaDiscos .btn {
+    color: #e4e70e; }
 
 .titulo {
   grid-area: titulo;
@@ -551,6 +555,7 @@ footer {
       margin-top: .5rem; }
 
 .grillaMerch {
+  margin-bottom: 3rem;
   display: grid;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
@@ -558,6 +563,15 @@ footer {
   grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
   gap: 10px 0px;
   grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo"  "merch1 merch1 merch1 merch1 merch1 merch1 merch1" "titMerch1 titMerch1 titMerch1 titMerch1 titMerch1 titMerch1 titMerch1"  "merch2 merch2 merch2 merch2 merch2 merch2 merch2" "titMerch2 titMerch2 titMerch2 titMerch2 titMerch2 titMerch2 titMerch2"  "merch3 merch3 merch3 merch3 merch3 merch3 merch3" "titMerch3 titMerch3 titMerch3 titMerch3 titMerch3 titMerch3 titMerch3"  "merch4 merch4 merch4 merch4 merch4 merch4 merch4" "titMerch4 titMerch4 titMerch4 titMerch4 titMerch4 titMerch4 titMerch4"  "merch5 merch5 merch5 merch5 merch5 merch5 merch5" "titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5"; }
+  .grillaMerch .merchandise {
+    border-bottom: solid #e4e70e 1px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Epilogue", sans-serif;
+    text-decoration: none; }
 
 .titulo {
   grid-area: titulo;
@@ -578,6 +592,7 @@ footer {
   grid-area: titMerch1;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -592,6 +607,7 @@ footer {
   grid-area: titMerch2;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -606,6 +622,7 @@ footer {
   grid-area: titMerch3;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -620,6 +637,7 @@ footer {
   grid-area: titMerch4;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -634,6 +652,7 @@ footer {
   grid-area: titMerch5;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 

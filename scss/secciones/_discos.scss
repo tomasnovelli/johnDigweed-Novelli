@@ -50,12 +50,18 @@
     
     .imgDiscos{
         width: 60vw;
+        &:hover{
+          transform: scale(1.1, 1.1) translateY(2px);
+      }
     }
     
     .titulosDiscos{
         @include fontStyle();
         font-size: 18px;
         text-align: center;
+    }
+    .btn{
+      color: $colorLineas;
     }
   }
 
@@ -73,7 +79,7 @@
       width: 100vw;
       display: flex;
       justify-content: center;
-      align-items: center;  
+      align-items: center;
       }
 
   .disco1 { 
