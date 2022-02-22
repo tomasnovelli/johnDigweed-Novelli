@@ -302,8 +302,25 @@ footer {
   grid-auto-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
-  gap: 50px 0px;
+  gap: 30px 0px;
   grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo"  "album1 album1 album1 album1 album1 album1 album1" "disco1 disco1 disco1 disco1 disco1 disco1 disco1"  "album2 album2 album2 album2 album2 album2 album2" "disco2 disco2 disco2 disco2 disco2 disco2 disco2"  "album3 album3 album3 album3 album3 album3 album3" "disco3 disco3 disco3 disco3 disco3 disco3 disco3"  "album4 album4 album4 album4 album4 album4 album4" "disco4 disco4 disco4 disco4 disco4 disco4 disco4"  "album5 album5 album5 album5 album5 album5 album5" "disco5 disco5 disco5 disco5 disco5 disco5 disco5"  "album6 album6 album6 album6 album6 album6 album6" "disco6 disco6 disco6 disco6 disco6 disco6 disco6"  "album7 album7 album7 album7 album7 album7 album7" "disco7 disco7 disco7 disco7 disco7 disco7 disco7"  "album8 album8 album8 album8 album8 album8 album8" "disco8 disco8 disco8 disco8 disco8 disco8 disco8"  "album9 album9 album9 album9 album9 album9 album9" "disco9 disco9 disco9 disco9 disco9 disco9 disco9"  "album10 album10 album10 album10 album10 album10 album10" "disco10 disco10 disco10 disco10 disco10 disco10 disco10"; }
+  .grillaDiscos .discos {
+    border-bottom: solid #e4e70e 1px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Epilogue", sans-serif;
+    text-decoration: none; }
+  .grillaDiscos .imgDiscos {
+    width: 60vw; }
+  .grillaDiscos .titulosDiscos {
+    text-decoration: none;
+    color: white;
+    font-family: "Epilogue", sans-serif;
+    font-size: 18px;
+    text-align: center; }
 
 .titulo {
   grid-area: titulo;
@@ -323,7 +340,8 @@ footer {
 .disco1 {
   grid-area: disco1;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -337,7 +355,8 @@ footer {
 .disco2 {
   grid-area: disco2;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -351,7 +370,8 @@ footer {
 .disco3 {
   grid-area: disco3;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -365,7 +385,8 @@ footer {
 .disco4 {
   grid-area: disco4;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -379,7 +400,8 @@ footer {
 .disco5 {
   grid-area: disco5;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -393,7 +415,8 @@ footer {
 .disco6 {
   grid-area: disco6;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -407,7 +430,8 @@ footer {
 .disco7 {
   grid-area: disco7;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -421,7 +445,8 @@ footer {
 .disco8 {
   grid-area: disco8;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -435,7 +460,8 @@ footer {
 .disco9 {
   grid-area: disco9;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -449,29 +475,10 @@ footer {
 .disco10 {
   grid-area: disco10;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
-
-.discos {
-  border-bottom: solid #e4e70e 1px;
-  width: 90vw;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: white;
-  font-family: "Epilogue", sans-serif;
-  text-decoration: none; }
-
-.imgDiscos {
-  width: 60vw; }
-
-.titulosDiscos {
-  text-decoration: none;
-  color: white;
-  font-family: "Epilogue", sans-serif;
-  font-size: 18px;
-  text-align: center; }
 
 @media (min-width: 768px) {
   .grillaDiscos {
@@ -482,12 +489,12 @@ footer {
     grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
     gap: 10px 0px;
     grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo titulo"  "album1 album1 album1 album1 album2 album2 album2 album2" "disco1 disco1 disco1 disco1 disco2 disco2 disco2 disco2"  "album3 album3 album3 album3 album4 album4 album4 album4" "disco3 disco3 disco3 disco3 disco4 disco4 disco4 disco4"  "album5 album5 album5 album5 album6 album6 album6 album6" "disco5 disco5 disco5 disco5 disco6 disco6 disco6 disco6"  "album7 album7 album7 album7 album8 album8 album8 album8" "disco7 disco7 disco7 disco7 disco8 disco8 disco8 disco8"  "album9 album9 album9 album9 album10 album10 album10 album10" "disco9 disco9 disco9 disco9 disco10 disco10 disco10 disco10"; }
-  .album1, .album2, .album3, .album4, .album5, .album6, .album7, .album8, .album9, .album10 {
-    width: 50vw; }
-  .disco1, .disco2, .disco3, .disco4, .disco5, .disco6, .disco7, .disco8, .disco9, .disco10 {
-    width: 50vw; }
-  .imgDiscos {
-    width: 30vw; } }
+    .grillaDiscos .album1, .grillaDiscos .album2, .grillaDiscos .album3, .grillaDiscos .album4, .grillaDiscos .album5, .grillaDiscos .album6, .grillaDiscos .album7, .grillaDiscos .album8, .grillaDiscos .album9, .grillaDiscos .album10 {
+      width: 50vw; }
+    .grillaDiscos .disco1, .grillaDiscos .disco2, .grillaDiscos .disco3, .grillaDiscos .disco4, .grillaDiscos .disco5, .grillaDiscos .disco6, .grillaDiscos .disco7, .grillaDiscos .disco8, .grillaDiscos .disco9, .grillaDiscos .disco10 {
+      width: 50vw; }
+    .grillaDiscos .imgDiscos {
+      width: 30vw; } }
 
 .titleReg {
   display: flex;

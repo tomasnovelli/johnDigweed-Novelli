@@ -5,7 +5,7 @@
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr; 
-    gap: 50px 0px; 
+    gap: 30px 0px; 
     grid-template-areas: 
       "titulo titulo titulo titulo titulo titulo titulo"
 
@@ -38,6 +38,25 @@
 
       "album10 album10 album10 album10 album10 album10 album10"
       "disco10 disco10 disco10 disco10 disco10 disco10 disco10"; 
+      
+      .discos{
+        border-bottom: solid $colorLineas 1px;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        @include fontStyle();
+        text-decoration: none;
+    }
+    
+    .imgDiscos{
+        width: 60vw;
+    }
+    
+    .titulosDiscos{
+        @include fontStyle();
+        font-size: 18px;
+        text-align: center;
+    }
   }
 
   .titulo { 
@@ -60,9 +79,10 @@
   .disco1 { 
       grid-area: disco1;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: center; 
+      align-items: center;
     }
 
   .album2 { 
@@ -76,7 +96,8 @@
   .disco2 { 
       grid-area: disco2;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -92,7 +113,8 @@
   .disco3 { 
       grid-area: disco3;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
@@ -108,7 +130,8 @@
   .disco4 { 
       grid-area: disco4;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -124,7 +147,8 @@
   .disco5 { 
       grid-area: disco5;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -140,7 +164,8 @@
   .disco6 { 
       grid-area: disco6;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -156,7 +181,8 @@
   .disco7 { 
       grid-area: disco7;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -172,7 +198,8 @@
   .disco8 { 
       grid-area: disco8;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -186,7 +213,8 @@
   .disco9 { 
       grid-area: disco9;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
@@ -200,30 +228,13 @@
   .disco10 { 
       grid-area: disco10;
       width: 100vw;
-      display: block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; 
     }
-  
 
-.discos{
-    border-bottom: solid $colorLineas 1px;
-    width: 90vw;
-    display: flex;
-    justify-content: center;
-    @include fontStyle();
-    text-decoration: none;
-}
 
-.imgDiscos{
-    width: 60vw;
-}
-
-.titulosDiscos{
-    @include fontStyle();
-    font-size: 18px;
-    text-align: center;
-}
 
 @media (min-width:768px){
   .grillaDiscos {
@@ -250,18 +261,17 @@
 
       "album9 album9 album9 album9 album10 album10 album10 album10"
       "disco9 disco9 disco9 disco9 disco10 disco10 disco10 disco10"; 
+      
+      .album1, .album2, .album3, .album4, .album5, .album6, .album7, .album8, .album9, .album10{
+        width: 50vw;
+      }
+    
+      .disco1, .disco2, .disco3, .disco4, .disco5, .disco6, .disco7, .disco8, .disco9, .disco10{
+        width: 50vw;
+      }
+    
+      .imgDiscos{
+        width: 30vw;
+      }
   }
-
-  .album1, .album2, .album3, .album4, .album5, .album6, .album7, .album8, .album9, .album10{
-    width: 50vw;
-  }
-
-  .disco1, .disco2, .disco3, .disco4, .disco5, .disco6, .disco7, .disco8, .disco9, .disco10{
-    width: 50vw;
-  }
-
-  .imgDiscos{
-    width: 30vw;
-  }
-
 }
