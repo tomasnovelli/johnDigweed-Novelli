@@ -492,7 +492,8 @@ footer {
     .grillaDiscos .album1, .grillaDiscos .album2, .grillaDiscos .album3, .grillaDiscos .album4, .grillaDiscos .album5, .grillaDiscos .album6, .grillaDiscos .album7, .grillaDiscos .album8, .grillaDiscos .album9, .grillaDiscos .album10 {
       width: 50vw; }
     .grillaDiscos .disco1, .grillaDiscos .disco2, .grillaDiscos .disco3, .grillaDiscos .disco4, .grillaDiscos .disco5, .grillaDiscos .disco6, .grillaDiscos .disco7, .grillaDiscos .disco8, .grillaDiscos .disco9, .grillaDiscos .disco10 {
-      width: 50vw; }
+      width: 50vw;
+      padding-bottom: 3rem; }
     .grillaDiscos .imgDiscos {
       width: 30vw; } }
 
