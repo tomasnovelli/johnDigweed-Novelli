@@ -126,7 +126,8 @@ footer {
       padding-bottom: .5rem;
       border-bottom: 1px solid #e4e70e; }
     .container-bio .container-text .container-article {
-      padding-bottom: 0.5rem;
+      padding-bottom: .5rem;
+      padding-top: .5rem;
       margin-bottom: 1rem;
       border-bottom: 1px solid #e4e70e; }
     .container-bio .container-text .bold {
