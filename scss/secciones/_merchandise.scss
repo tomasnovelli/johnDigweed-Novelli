@@ -145,6 +145,8 @@
         }
     }
 
+// MEDIAS QUERIS
+    
     @media (min-width:768px){
         .grillaMerch {
             display: grid; 
@@ -164,15 +166,15 @@
         
               "merch5 merch5 merch5 merch5 merch5 merch5 merch5 merch5"
               "titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5"; 
-          }
-
-          .merch1, .merch2, .merch3, .merch4, .merch5{
-              width: 50vw;
-          }
-          .titMerch1, .titMerch2, .titMerch3, .titMerch4, .titMerch5{
-              width: 50vw;
-          }
-        
+          
+              .merch1, .merch2, .merch3, .merch4, .merch5{
+                width: 50vw;
+            }
+            .titMerch1, .titMerch2, .titMerch3, .titMerch4, .titMerch5{
+                width: 50vw;
+            }
+        }
+            
     .imgMerch{
         width: 30vw;
     }

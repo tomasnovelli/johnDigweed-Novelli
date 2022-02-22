@@ -10,35 +10,31 @@ body {
 header {
   background-image: linear-gradient(#161616, black);
   border-bottom: 2px solid #141413; }
-
-.nav-link {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: white;
-  font-family: "Epilogue", sans-serif; }
-  .nav-link:hover {
-    background-color: #141413;
-    color: black; }
-
-.dropdown-menu {
-  background-color: #141413; }
-
-.dropdown-item {
-  text-decoration: none;
-  color: white;
-  font-family: "Epilogue", sans-serif; }
-  .dropdown-item:hover {
-    background-color: #e4e70e; }
-
-.logoSize {
-  width: 190px;
-  position: relative;
-  top: 5px;
-  left: 10px; }
+  header .logoSize {
+    width: 190px;
+    position: relative;
+    top: 5px;
+    left: 10px; }
+  header .nav-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Epilogue", sans-serif; }
+    header .nav-link:hover {
+      background-color: #141413; }
+  header .dropdown-menu {
+    background-color: #141413; }
+    header .dropdown-menu .dropdown-item {
+      text-decoration: none;
+      color: white;
+      font-family: "Epilogue", sans-serif; }
+      header .dropdown-menu .dropdown-item:hover {
+        background-color: #e4e70e;
+        color: black; }
 
 @media (min-width: 768px) {
-  .logoSize {
+  header .logoSize {
     position: relative;
     top: 8px;
     left: 80px;
@@ -53,12 +49,12 @@ header {
     align-content: center; } }
 
 @media (min-width: 1024px) {
-  .logoSize {
+  header .logoSize {
     position: relative;
     left: 120px; } }
 
 @media (min-width: 1440px) {
-  .logoSize {
+  header .logoSize {
     position: relative;
     left: 230px;
     width: 300px; } }
@@ -72,29 +68,28 @@ footer {
   display: grid;
   justify-content: center;
   align-items: center; }
-
-.fab {
-  color: white;
-  font-size: 20px;
-  padding: 5px 15px 5px 15px;
-  border-radius: 10%; }
-  .fab:hover {
-    background-color: #e4e70e;
-    color: black;
-    transform: scale(1.2, 1.2) translateY(-2px); }
+  footer .fab {
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10%; }
+    footer .fab:hover {
+      background-color: #e4e70e;
+      color: black;
+      transform: scale(1.2, 1.2) translateY(-2px); }
 
 @media (min-width: 768px) {
-  .fab {
+  footer .fab {
     font-size: 25px;
     padding: 5px 25px 5px 25px; } }
 
 @media (min-width: 1024px) {
-  .fab {
+  footer .fab {
     font-size: 30px;
     padding: 5px 30px 5px 30px; } }
 
 @media (min-width: 1440px) {
-  .fab {
+  footer .fab {
     font-size: 35px;
     padding: 5px 35px 5px 35px; } }
 
@@ -196,7 +191,6 @@ footer {
   justify-items: center;
   align-items: center; }
 
-/* FORMATO MIX */
 .mixCuadrado {
   border-bottom: solid #e4e70e 1px;
   width: 90vw;
@@ -227,6 +221,7 @@ footer {
   height: 150px;
   margin-top: 4%; }
 
+/* FORMATO MIX */
 @media (min-width: 425px) {
   .videoTitulo1, .videoTitulo2, .videoTitulo3, .videoTitulo4 {
     font-size: 18.5px; }
@@ -684,9 +679,9 @@ footer {
     grid-template-rows: 0.1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
     gap: 10px 0px;
     grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo titulo"  "merch1 merch1 merch1 merch1 merch2 merch2 merch2 merch2" "titMerch1 titMerch1 titMerch1 titMerch1 titMerch2 titMerch2 titMerch2 titMerch2"  "merch3 merch3 merch3 merch3 merch4 merch4 merch4 merch4" "titMerch3 titMerch3 titMerch3 titMerch3 titMerch4 titMerch4 titMerch4 titMerch4"  "merch5 merch5 merch5 merch5 merch5 merch5 merch5 merch5" "titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5 titMerch5"; }
-  .merch1, .merch2, .merch3, .merch4, .merch5 {
-    width: 50vw; }
-  .titMerch1, .titMerch2, .titMerch3, .titMerch4, .titMerch5 {
-    width: 50vw; }
+    .grillaMerch .merch1, .grillaMerch .merch2, .grillaMerch .merch3, .grillaMerch .merch4, .grillaMerch .merch5 {
+      width: 50vw; }
+    .grillaMerch .titMerch1, .grillaMerch .titMerch2, .grillaMerch .titMerch3, .grillaMerch .titMerch4, .grillaMerch .titMerch5 {
+      width: 50vw; }
   .imgMerch {
     width: 30vw; } }

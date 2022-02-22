@@ -61,14 +61,13 @@
   align-items: center;
 }
 
-  /* FORMATO MIX */
-
 .mixCuadrado{
   border-bottom: solid $colorLineas 1px;
   width: 90vw;
   display: flex;
   justify-content: center;
 }
+
 .mixTexto{  
 width: 90vw;
 display: flex;
@@ -78,34 +77,32 @@ text-decoration: none;
 }
 
 .videoTitulo1, .videoTitulo2, .videoTitulo3, .videoTitulo4{
-
-  @include fontStyle();
-
-  @include videoTitulo(14.5px, 5px);
+    @include fontStyle();
+    @include videoTitulo(14.5px, 5px);
 
 }
 
 .videoYoutube1, .videoYoutube2, .videoYoutube3, .videoYoutube4{
-
-  @include videoStyle (250px, 150px);
+    @include videoStyle (250px, 150px);
 
 }
+
+  /* FORMATO MIX */
+
+
 
 
 //MEDIAS QUERIS
 
 @media (min-width:425px){
 
-  .videoTitulo1, .videoTitulo2, .videoTitulo3, .videoTitulo4{
-    font-size: 18.5px;
-
-}
-
-.videoYoutube1, .videoYoutube2, .videoYoutube3, .videoYoutube4{
-    width: 350px;
-    height: 210px;
-}
-
+    .videoTitulo1, .videoTitulo2, .videoTitulo3, .videoTitulo4{
+      font-size: 18.5px;
+    }
+    .videoYoutube1, .videoYoutube2, .videoYoutube3, .videoYoutube4{
+      width: 350px;
+      height: 210px;
+    }
 }
 
 @media (min-width:768px){
@@ -124,7 +121,7 @@ text-decoration: none;
         "video1 video1 video1 video2 video2 video2"
         "video3 video3 video3 video4 video4 video4"
         "video3 video3 video3 video4 video4 video4"
-        "video3 video3 video3 video4 video4 video4"
+        "video3 video3 video3 video4 video4 video4";
   }
 
   .titulo { 

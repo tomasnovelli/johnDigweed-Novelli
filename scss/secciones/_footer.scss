@@ -9,40 +9,45 @@ footer{
     display: grid;
     justify-content: center;
     align-items: center;
-}
-
-.fab{
-    color: white;
-    font-size: 20px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 10%;
-
-    &:hover{
-        background-color: $colorLineas;
-        color: black;
-        transform: scale(1.2, 1.2) translateY(-2px);
+    .fab{
+        color: white;
+        font-size: 20px;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10%;
+    
+        &:hover{
+            background-color: $colorLineas;
+            color: black;
+            transform: scale(1.2, 1.2) translateY(-2px);
+        }
     }
 }
 
 //MEDIAS QUERIS
 
 @media (min-width:768px){
-    .fab{
-        font-size: 25px;
-        padding: 5px 25px 5px 25px;
-    }  
+    footer{
+        .fab{
+            font-size: 25px;
+            padding: 5px 25px 5px 25px;
+        }   
+    }
 }
 
 @media (min-width:1024px){
-    .fab{
-        font-size: 30px;
-        padding: 5px 30px 5px 30px;
+    footer{
+        .fab{
+            font-size: 30px;
+            padding: 5px 30px 5px 30px;
+        }
     }
 }
 
 @media (min-width:1440px){
-    .fab{
-        font-size: 35px;
-        padding: 5px 35px 5px 35px;
+    footer{
+        .fab{
+            font-size: 35px;
+            padding: 5px 35px 5px 35px;
+        }    
     }
 }

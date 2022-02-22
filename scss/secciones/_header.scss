@@ -2,48 +2,46 @@
 header{
     background-image:linear-gradient(rgb(22, 22, 22), black);
     border-bottom: 2px solid $colorFooter;
-}
-
-.nav-link{
-    display: flex;
-    justify-content: center;
-    @include fontStyle();
-    &:hover{
+    .logoSize{
+        width: 190px;
+        position: relative;
+        top: 5px;
+        left: 10px;          
+    }
+    .nav-link{
+        display: flex;
+        justify-content: center;
+        @include fontStyle();
+        &:hover{
+            background-color: $colorFooter;
+        }
+    }
+    .dropdown-menu{
         background-color: $colorFooter;
-        color: black;
+        .dropdown-item{
+            @include fontStyle();
+            &:hover{
+                background-color: $colorLineas;
+                color: black;
+            }
+        }
     }
-
 }
 
-.dropdown-menu{
-    background-color: $colorFooter;
-}
 
-.dropdown-item{
-    @include fontStyle();
-    &:hover{
-        background-color: $colorLineas;
-    }
 
-}
-
-.logoSize{
-    width: 190px;
-    position: relative;
-    top: 5px;
-    left: 10px;
-           
-}
 
 // MEDIAS QUERIS
 
 @media (min-width:768px){
-    .logoSize{
-        position: relative;
-        top: 8px;
-        left: 80px;
-        width: 250px;
-    }   
+   header{
+       .logoSize{
+            position: relative;
+            top: 8px;
+            left: 80px;
+            width: 250px;
+        }   
+    } 
 }
 
     /* CENTRADO NAV BAR */
@@ -58,16 +56,20 @@ header{
 }
 
 @media (min-width:1024px){
-    .logoSize{
-        position: relative;
-        left: 120px;
+    header{
+        .logoSize{
+            position: relative;
+            left: 120px;
+        }
     }
 }
 
 @media (min-width:1440px){
-    .logoSize{
-        position: relative;
-        left: 230px;
-        width: 300px;
+    header{
+        .logoSize{
+            position: relative;
+            left: 230px;
+            width: 300px;
+        }    
     }
 }
