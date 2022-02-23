@@ -24,7 +24,8 @@ header {
     header .nav-link:hover {
       background-color: #141413; }
   header .dropdown-menu {
-    background-color: #141413; }
+    background-color: #141413;
+    transform: translateX(100px); }
     header .dropdown-menu .dropdown-item {
       text-decoration: none;
       color: white;
@@ -40,7 +41,6 @@ header {
     left: 80px;
     width: 250px; } }
 
-/* CENTRADO NAV BAR */
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex;
