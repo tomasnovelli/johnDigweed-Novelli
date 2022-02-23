@@ -23,16 +23,18 @@ header {
     font-family: "Epilogue", sans-serif; }
     header .nav-link:hover {
       background-color: #141413; }
-  header .dropdown-menu {
-    background-color: #141413;
-    transform: translateX(100px); }
-    header .dropdown-menu .dropdown-item {
-      text-decoration: none;
-      color: white;
-      font-family: "Epilogue", sans-serif; }
-      header .dropdown-menu .dropdown-item:hover {
-        background-color: #e4e70e;
-        color: black; }
+  header .dropdown {
+    width: 5rem; }
+    header .dropdown .dropdown-menu {
+      background-color: #141413;
+      transform: translateX(-68px); }
+      header .dropdown .dropdown-menu .dropdown-item {
+        text-decoration: none;
+        color: white;
+        font-family: "Epilogue", sans-serif; }
+        header .dropdown .dropdown-menu .dropdown-item:hover {
+          background-color: #e4e70e;
+          color: black; }
 
 @media (min-width: 768px) {
   header .logoSize {

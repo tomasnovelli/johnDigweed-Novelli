@@ -16,18 +16,23 @@ header{
             background-color: $colorFooter;
         }
     }
-    .dropdown-menu{
-        background-color: $colorFooter;
-        transform: translateX(100px);
-        .dropdown-item{
-            @include fontStyle();
-            &:hover{
-                background-color: $colorLineas;
-                color: black;
+    .dropdown{
+        width: 5rem;
+        .dropdown-menu{
+            background-color: $colorFooter;
+            transform: translateX(-68px);
+            .dropdown-item{
+                @include fontStyle();
+                &:hover{
+                    background-color: $colorLineas;
+                    color: black;
+                }
             }
         }
     }
 }
+
+
 
 
 // MEDIAS QUERIS
