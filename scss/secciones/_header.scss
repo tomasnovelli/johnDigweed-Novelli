@@ -18,6 +18,7 @@ header{
     }
     .dropdown-menu{
         background-color: $colorFooter;
+        transform: translateX(100px);
         .dropdown-item{
             @include fontStyle();
             &:hover{
@@ -27,8 +28,6 @@ header{
         }
     }
 }
-
-
 
 
 // MEDIAS QUERIS
