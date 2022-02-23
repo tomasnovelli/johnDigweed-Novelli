@@ -665,12 +665,12 @@ footer {
   text-align: center; }
 
 .carousel:hover {
-  transform: scale(1.1, 1.1) translateY(2px); }
+  transform: scale(1.05, 1.05) translateY(2px); }
 
 .imgMerch {
   width: 60vw; }
   .imgMerch:hover {
-    transform: scale(1.1, 1.1) translateY(2px); }
+    transform: scale(1.05, 1.05) translateY(2px); }
 
 @media (min-width: 768px) {
   .grillaMerch {
